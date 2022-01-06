@@ -23,3 +23,10 @@ jobs:
       with:
           PROJECT_FILE_PATH: DofusProtocol/DofusProtocol.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+
+    - uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        prerelease: false
+        files: |
+          *.nupkg
