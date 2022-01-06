@@ -11,13 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DofusProtocol")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ImNotARobot742")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Dofus Protocol extracted using the AnkamaProtocol-Builder\r\n")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.62.3.8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.62.3.8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DofusProtocol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DofusProtocol")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.62.3.8")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
 

@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.62.3.8</Version>
+    <Authors>ImNotARobot742</Authors>
+    <Description>Dofus Protocol extracted using the AnkamaProtocol-Builder
+</Description>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -16,6 +22,10 @@
     <Compile Remove="D2Parser\Protocol\Data\**" />
     <EmbeddedResource Remove="D2Parser\Protocol\Data\**" />
     <None Remove="D2Parser\Protocol\Data\**" />
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

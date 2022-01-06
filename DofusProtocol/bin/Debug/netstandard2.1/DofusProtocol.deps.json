@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "DofusProtocol/1.0.0": {
+      "DofusProtocol/2.62.3.8": {
         "runtime": {
           "DofusProtocol.dll": {}
         }
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "DofusProtocol/1.0.0": {
+    "DofusProtocol/2.62.3.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
