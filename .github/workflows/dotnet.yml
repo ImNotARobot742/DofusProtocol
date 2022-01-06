@@ -29,5 +29,4 @@ jobs:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         prerelease: false
         automatic_release_tag: latest
-        files: |
-          *.nupkg
+        files: DofusProtocol\bin\Debug\netstandard2.1
