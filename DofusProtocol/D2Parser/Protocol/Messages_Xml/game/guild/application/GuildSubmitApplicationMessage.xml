@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildSubmitApplicationMessage" Id="9276" Heritage="Message">
+	<Fields>
+		<XmlField Name="applyText" Type="utf" />
+		<XmlField Name="guildId" Type="varuhint" Condition="guildId &lt; 0" />
+		<XmlField Name="timeSpent" Type="varuhint" Condition="timeSpent &lt; 0" />
+		<XmlField Name="filterLanguage" Type="utf" />
+		<XmlField Name="filterAmbiance" Type="utf" />
+		<XmlField Name="filterPlaytime" Type="utf" />
+		<XmlField Name="filterInterest" Type="utf" />
+		<XmlField Name="filterMinMaxGuildLevel" Type="utf" />
+		<XmlField Name="filterRecruitmentType" Type="utf" />
+		<XmlField Name="filterMinMaxCharacterLevel" Type="utf" />
+		<XmlField Name="filterMinMaxAchievement" Type="utf" />
+		<XmlField Name="filterSearchName" Type="utf" />
+		<XmlField Name="filterLastSort" Type="utf" />
+	</Fields>
+</XmlMessage>

@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildPlayerApplicationInformationMessage" Id="9380" Heritage="GuildPlayerApplicationAbstractMessage">
+	<Fields>
+		<XmlField Name="guildInformation" Type="Types.GuildInformations" />
+		<XmlField Name="apply" Type="Types.GuildApplicationInformation" />
+	</Fields>
+</XmlMessage>

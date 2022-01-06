@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildApplicationAnswerMessage" Id="5404" Heritage="Message">
+	<Fields>
+		<XmlField Name="accepted" Type="boolean" />
+		<XmlField Name="playerId" Type="varuhint" Condition="playerId &lt; 0" />
+	</Fields>
+</XmlMessage>

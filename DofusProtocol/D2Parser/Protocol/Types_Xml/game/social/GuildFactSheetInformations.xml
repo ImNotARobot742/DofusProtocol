@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildFactSheetInformations" Id="7387" Heritage="GuildInformations">
+	<Fields>
+		<XmlField Name="leaderId" Type="varuhlong" Condition="leaderId &lt; 0 || leaderId &gt; 9007199254740992" />
+		<XmlField Name="nbMembers" Type="varuhshort" Condition="nbMembers &lt; 0" />
+		<XmlField Name="lastActivityDay" Type="short" Condition="lastActivityDay &lt; 0" />
+		<XmlField Name="recruitment" Type="Types.GuildRecruitmentInformation" />
+		<XmlField Name="nbPendingApply" Type="int" Condition="nbPendingApply &lt; 0" />
+	</Fields>
+</XmlType>

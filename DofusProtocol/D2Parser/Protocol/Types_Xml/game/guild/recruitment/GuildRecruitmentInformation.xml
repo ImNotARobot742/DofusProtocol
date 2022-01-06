@@ -1,0 +1,18 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildRecruitmentInformation" Id="4584" Heritage="">
+	<Fields>
+		<XmlField Name="minLevelFacultative" Type="flag(0)" />
+		<XmlField Name="minSuccessFacultative" Type="flag(1)" />
+		<XmlField Name="invalidatedByModeration" Type="flag(2)" />
+		<XmlField Name="recruitmentAutoLocked" Type="flag(3)" />
+		<XmlField Name="guildId" Type="varuhint" Condition="guildId &lt; 0" />
+		<XmlField Name="recruitmentType" Type="sbyte" Condition="recruitmentType &lt; 0" />
+		<XmlField Name="recruitmentTitle" Type="utf" />
+		<XmlField Name="recruitmentText" Type="utf" />
+		<XmlField Name="selectedLanguages" Type="varuhint[]" />
+		<XmlField Name="selectedCriterion" Type="varuhint[]" />
+		<XmlField Name="minLevel" Type="short" Condition="minLevel &lt; 0" />
+		<XmlField Name="minSuccess" Type="varuhint" Condition="minSuccess &lt; 0" />
+		<XmlField Name="lastEditPlayerName" Type="utf" />
+		<XmlField Name="lastEditDate" Type="double" Condition="lastEditDate &lt; -9007199254740992 || lastEditDate &gt; 9007199254740992" />
+	</Fields>
+</XmlType>

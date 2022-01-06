@@ -1,0 +1,9 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightStartingMessage" Id="2951" Heritage="Message">
+	<Fields>
+		<XmlField Name="fightType" Type="sbyte" Condition="fightType &lt; 0" />
+		<XmlField Name="fightId" Type="varuhshort" Condition="fightId &lt; 0" />
+		<XmlField Name="attackerId" Type="double" Condition="attackerId &lt; -9007199254740992 || attackerId &gt; 9007199254740992" />
+		<XmlField Name="defenderId" Type="double" Condition="defenderId &lt; -9007199254740992 || defenderId &gt; 9007199254740992" />
+		<XmlField Name="containsBoss" Type="boolean" />
+	</Fields>
+</XmlMessage>

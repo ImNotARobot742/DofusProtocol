@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DebugHighlightCellsMessage" Id="9963" Heritage="Message">
+	<Fields>
+		<XmlField Name="color" Type="double" Condition="color &lt; -9007199254740992 || color &gt; 9007199254740992" />
+		<XmlField Name="cells" Type="varuhshort[]" />
+	</Fields>
+</XmlMessage>

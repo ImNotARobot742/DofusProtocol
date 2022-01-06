@@ -1,0 +1,13 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ApplicationPlayerInformation" Id="3872" Heritage="">
+	<Fields>
+		<XmlField Name="playerId" Type="varuhint" Condition="playerId &lt; 0" />
+		<XmlField Name="playerName" Type="utf" />
+		<XmlField Name="breed" Type="sbyte" Condition="breed &lt; (byte)Enums.PlayableBreedEnum.Feca || breed &gt; (byte)Enums.PlayableBreedEnum.Ouginak" />
+		<XmlField Name="sex" Type="boolean" />
+		<XmlField Name="level" Type="varuhint" Condition="level &lt; 0" />
+		<XmlField Name="accountId" Type="varuhint" Condition="accountId &lt; 0" />
+		<XmlField Name="accountTag" Type="utf" />
+		<XmlField Name="accountNickname" Type="utf" />
+		<XmlField Name="status" Type="Types.PlayerStatus" />
+	</Fields>
+</XmlType>

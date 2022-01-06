@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildUpdateApplicationMessage" Id="6940" Heritage="Message">
+	<Fields>
+		<XmlField Name="applyText" Type="utf" />
+		<XmlField Name="guildId" Type="varuhint" Condition="guildId &lt; 0" />
+	</Fields>
+</XmlMessage>

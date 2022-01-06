@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildListApplicationModifiedMessage" Id="8105" Heritage="Message">
+	<Fields>
+		<XmlField Name="apply" Type="Types.GuildApplicationInformation" />
+		<XmlField Name="state" Type="sbyte" Condition="state &lt; 0" />
+		<XmlField Name="playerId" Type="varuhlong" Condition="playerId &lt; 0 || playerId &gt; 9007199254740992" />
+	</Fields>
+</XmlMessage>

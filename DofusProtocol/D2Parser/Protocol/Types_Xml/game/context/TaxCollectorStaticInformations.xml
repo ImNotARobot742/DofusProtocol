@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorStaticInformations" Id="4022" Heritage="">
+	<Fields>
+		<XmlField Name="firstNameId" Type="varuhshort" Condition="firstNameId &lt; 0" />
+		<XmlField Name="lastNameId" Type="varuhshort" Condition="lastNameId &lt; 0" />
+		<XmlField Name="guildIdentity" Type="Types.GuildInformations" />
+		<XmlField Name="callerId" Type="varuhlong" Condition="callerId &lt; 0 || callerId &gt; 9007199254740992" />
+	</Fields>
+</XmlType>

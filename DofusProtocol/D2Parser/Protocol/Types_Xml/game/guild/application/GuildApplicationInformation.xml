@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildApplicationInformation" Id="7662" Heritage="">
+	<Fields>
+		<XmlField Name="playerInfo" Type="Types.ApplicationPlayerInformation" />
+		<XmlField Name="applyText" Type="utf" />
+		<XmlField Name="creationDate" Type="double" Condition="creationDate &lt; -9007199254740992 || creationDate &gt; 9007199254740992" />
+	</Fields>
+</XmlType>

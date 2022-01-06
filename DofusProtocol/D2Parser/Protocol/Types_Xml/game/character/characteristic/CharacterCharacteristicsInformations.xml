@@ -1,0 +1,14 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCharacteristicsInformations" Id="1918" Heritage="">
+	<Fields>
+		<XmlField Name="experience" Type="varuhlong" Condition="experience &lt; 0 || experience &gt; 9007199254740992" />
+		<XmlField Name="experienceLevelFloor" Type="varuhlong" Condition="experienceLevelFloor &lt; 0 || experienceLevelFloor &gt; 9007199254740992" />
+		<XmlField Name="experienceNextLevelFloor" Type="varuhlong" Condition="experienceNextLevelFloor &lt; 0 || experienceNextLevelFloor &gt; 9007199254740992" />
+		<XmlField Name="experienceBonusLimit" Type="varuhlong" Condition="experienceBonusLimit &lt; 0 || experienceBonusLimit &gt; 9007199254740992" />
+		<XmlField Name="kamas" Type="varuhlong" Condition="kamas &lt; 0 || kamas &gt; 9007199254740992" />
+		<XmlField Name="alignmentInfos" Type="Types.ActorExtendedAlignmentInformations" />
+		<XmlField Name="criticalHitWeapon" Type="varuhshort" Condition="criticalHitWeapon &lt; 0" />
+		<XmlField Name="characteristics" Type="instance of Types.CharacterCharacteristic[]" />
+		<XmlField Name="spellModifications" Type="Types.CharacterSpellModification[]" />
+		<XmlField Name="probationTime" Type="int" Condition="probationTime &lt; 0" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,7 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaginationAnswerAbstractMessage" Id="2864" Heritage="Message">
+	<Fields>
+		<XmlField Name="offset" Type="double" Condition="offset &lt; 0 || offset &gt; 9007199254740992" />
+		<XmlField Name="count" Type="uint" Condition="count &lt; 0 || count &gt; 4294967295" />
+		<XmlField Name="total" Type="uint" Condition="total &lt; 0 || total &gt; 4294967295" />
+	</Fields>
+</XmlMessage>

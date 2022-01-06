@@ -1,0 +1,17 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildSummaryRequestMessage" Id="9211" Heritage="PaginationRequestAbstractMessage">
+	<Fields>
+		<XmlField Name="hideFullFilter" Type="flag(0)" />
+		<XmlField Name="sortDescending" Type="flag(1)" />
+		<XmlField Name="nameFilter" Type="utf" />
+		<XmlField Name="criterionFilter" Type="varuhint[]" />
+		<XmlField Name="languagesFilter" Type="varuhint[]" />
+		<XmlField Name="recruitmentTypeFilter" Type="sbyte[]" />
+		<XmlField Name="minLevelFilter" Type="short" Condition="minLevelFilter &lt; 0" />
+		<XmlField Name="maxLevelFilter" Type="short" Condition="maxLevelFilter &lt; 0" />
+		<XmlField Name="minPlayerLevelFilter" Type="short" Condition="minPlayerLevelFilter &lt; 0" />
+		<XmlField Name="maxPlayerLevelFilter" Type="short" Condition="maxPlayerLevelFilter &lt; 0" />
+		<XmlField Name="minSuccessFilter" Type="varuhint" Condition="minSuccessFilter &lt; 0" />
+		<XmlField Name="maxSuccessFilter" Type="varuhint" Condition="maxSuccessFilter &lt; 0" />
+		<XmlField Name="sortType" Type="sbyte" Condition="sortType &lt; 0" />
+	</Fields>
+</XmlMessage>
