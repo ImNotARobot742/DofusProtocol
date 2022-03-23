@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaginationRequestAbstractMessage" Id="789" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaginationRequestAbstractMessage" Id="3535" Heritage="Message">
 	<Fields>
 		<XmlField Name="offset" Type="double" Condition="offset &lt; 0 || offset &gt; 9007199254740992" />
 		<XmlField Name="count" Type="uint" Condition="count &lt; 0 || count &gt; 4294967295" />

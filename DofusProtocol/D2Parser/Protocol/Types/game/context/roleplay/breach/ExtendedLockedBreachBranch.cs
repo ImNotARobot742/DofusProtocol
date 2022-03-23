@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:05
+// Generated on 03/23/2022 09:51:33
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class ExtendedLockedBreachBranch : ExtendedBreachBranch
     {
-        public const short Id = 169;
+        public const short Id = 3173;
         public override short TypeId
         {
             get { return Id; }

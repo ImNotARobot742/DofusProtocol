@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="InviteInHavenBagMessage" Id="2929" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="InviteInHavenBagMessage" Id="8351" Heritage="Message">
 	<Fields>
 		<XmlField Name="guestInformations" Type="Types.CharacterMinimalInformations" />
 		<XmlField Name="accept" Type="boolean" />

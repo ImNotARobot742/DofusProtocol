@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:08
+// Generated on 03/23/2022 09:50:09
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class IdentificationSuccessMessage : NetworkMessage
     {
-        public const uint Id = 331;
+        public const uint Id = 6384;
         public override uint MessageId
         {
             get { return Id; }
@@ -21,6 +21,7 @@ namespace AmaknaProxy.API.Protocol.Messages
         public bool hasRights;
         public bool hasConsoleRight;
         public bool wasAlreadyConnected;
+        public bool isAccountForced;
         public string login;
         public Types.AccountTagInformation accountTag;
         public int accountId;
@@ -35,11 +36,12 @@ namespace AmaknaProxy.API.Protocol.Messages
         {
         }
         
-        public IdentificationSuccessMessage(bool hasRights, bool hasConsoleRight, bool wasAlreadyConnected, string login, Types.AccountTagInformation accountTag, int accountId, sbyte communityId, string secretQuestion, double accountCreation, double subscriptionElapsedDuration, double subscriptionEndDate, byte havenbagAvailableRoom)
+        public IdentificationSuccessMessage(bool hasRights, bool hasConsoleRight, bool wasAlreadyConnected, bool isAccountForced, string login, Types.AccountTagInformation accountTag, int accountId, sbyte communityId, string secretQuestion, double accountCreation, double subscriptionElapsedDuration, double subscriptionEndDate, byte havenbagAvailableRoom)
         {
             this.hasRights = hasRights;
             this.hasConsoleRight = hasConsoleRight;
             this.wasAlreadyConnected = wasAlreadyConnected;
+            this.isAccountForced = isAccountForced;
             this.login = login;
             this.accountTag = accountTag;
             this.accountId = accountId;
@@ -57,6 +59,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             flag1 = BooleanByteWrapper.SetFlag(flag1, 0, hasRights);
             flag1 = BooleanByteWrapper.SetFlag(flag1, 1, hasConsoleRight);
             flag1 = BooleanByteWrapper.SetFlag(flag1, 2, wasAlreadyConnected);
+            flag1 = BooleanByteWrapper.SetFlag(flag1, 3, isAccountForced);
             writer.WriteByte(flag1);
             writer.WriteUTF(login);
             accountTag.Serialize(writer);
@@ -75,6 +78,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             hasRights = BooleanByteWrapper.GetFlag(flag1, 0);
             hasConsoleRight = BooleanByteWrapper.GetFlag(flag1, 1);
             wasAlreadyConnected = BooleanByteWrapper.GetFlag(flag1, 2);
+            isAccountForced = BooleanByteWrapper.GetFlag(flag1, 3);
             login = reader.ReadUTF();
             accountTag = new Types.AccountTagInformation();
             accountTag.Deserialize(reader);

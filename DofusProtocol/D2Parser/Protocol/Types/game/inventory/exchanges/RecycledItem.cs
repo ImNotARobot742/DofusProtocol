@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:09
+// Generated on 03/23/2022 09:51:37
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class RecycledItem
     {
-        public const short Id = 161;
+        public const short Id = 2393;
         public virtual short TypeId
         {
             get { return Id; }

@@ -1,8 +1,9 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationSuccessMessage" Id="331" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationSuccessMessage" Id="6384" Heritage="Message">
 	<Fields>
 		<XmlField Name="hasRights" Type="flag(0)" />
 		<XmlField Name="hasConsoleRight" Type="flag(1)" />
 		<XmlField Name="wasAlreadyConnected" Type="flag(2)" />
+		<XmlField Name="isAccountForced" Type="flag(3)" />
 		<XmlField Name="login" Type="utf" />
 		<XmlField Name="accountTag" Type="Types.AccountTagInformation" />
 		<XmlField Name="accountId" Type="int" Condition="accountId &lt; 0" />

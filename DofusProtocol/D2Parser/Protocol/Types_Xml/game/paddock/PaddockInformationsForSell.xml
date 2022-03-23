@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaddockInformationsForSell" Id="1249" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaddockInformationsForSell" Id="3003" Heritage="">
 	<Fields>
 		<XmlField Name="guildOwner" Type="utf" />
 		<XmlField Name="worldX" Type="short" Condition="worldX &lt; -255 || worldX &gt; 255" />

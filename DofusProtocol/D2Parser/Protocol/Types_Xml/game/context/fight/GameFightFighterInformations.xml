@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightFighterInformations" Id="5068" Heritage="GameContextActorInformations">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightFighterInformations" Id="8525" Heritage="GameContextActorInformations">
 	<Fields>
 		<XmlField Name="spawnInfo" Type="Types.GameContextBasicSpawnInformation" />
 		<XmlField Name="wave" Type="sbyte" Condition="wave &lt; 0" />

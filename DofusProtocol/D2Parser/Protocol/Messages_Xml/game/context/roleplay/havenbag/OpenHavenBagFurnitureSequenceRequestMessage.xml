@@ -1,3 +1,3 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="OpenHavenBagFurnitureSequenceRequestMessage" Id="3811" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="OpenHavenBagFurnitureSequenceRequestMessage" Id="1590" Heritage="Message">
 	<Fields />
 </XmlMessage>

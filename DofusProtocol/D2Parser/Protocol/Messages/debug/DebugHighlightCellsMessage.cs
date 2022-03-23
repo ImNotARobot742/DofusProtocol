@@ -1,6 +1,6 @@
 
 
-// Generated on 09/21/2021 19:35:45
+// Generated on 03/23/2022 09:50:09
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class DebugHighlightCellsMessage : NetworkMessage
     {
-        public const uint Id = 9963;
+        public const uint Id = 7356;
         public override uint MessageId
         {
             get { return Id; }
@@ -37,7 +37,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             writer.WriteShort((short)cells.Length);
             foreach (var entry in cells)
             {
-                 writer.WriteVarInt((int)entry);
+                 writer.WriteVarShort((short)entry);
             }
         }
         

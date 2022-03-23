@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="UpdateRecruitmentInformationMessage" Id="3169" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="UpdateRecruitmentInformationMessage" Id="4441" Heritage="Message">
 	<Fields>
 		<XmlField Name="recruitmentData" Type="Types.GuildRecruitmentInformation" />
 	</Fields>

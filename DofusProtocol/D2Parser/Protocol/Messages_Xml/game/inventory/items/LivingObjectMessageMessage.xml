@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="LivingObjectMessageMessage" Id="2593" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="LivingObjectMessageMessage" Id="9837" Heritage="Message">
 	<Fields>
 		<XmlField Name="msgId" Type="varuhshort" Condition="msgId &lt; 0" />
 		<XmlField Name="timeStamp" Type="int" Condition="timeStamp &lt; 0" />

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationFailedBannedMessage" Id="4124" Heritage="IdentificationFailedMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationFailedBannedMessage" Id="4724" Heritage="IdentificationFailedMessage">
 	<Fields>
 		<XmlField Name="banEndDate" Type="double" Condition="banEndDate &lt; 0 || banEndDate &gt; 9007199254740992" />
 	</Fields>

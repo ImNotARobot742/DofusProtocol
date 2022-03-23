@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JobCrafterDirectorySettingsMessage" Id="8518" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JobCrafterDirectorySettingsMessage" Id="7632" Heritage="Message">
 	<Fields>
 		<XmlField Name="craftersSettings" Type="Types.JobCrafterDirectorySettings[]" />
 	</Fields>

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeHandleMountsMessage" Id="9421" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeHandleMountsMessage" Id="4518" Heritage="Message">
 	<Fields>
 		<XmlField Name="actionType" Type="sbyte" />
 		<XmlField Name="ridesId" Type="varuhint[]" />

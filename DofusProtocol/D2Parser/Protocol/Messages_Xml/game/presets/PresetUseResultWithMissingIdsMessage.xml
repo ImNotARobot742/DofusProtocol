@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PresetUseResultWithMissingIdsMessage" Id="2217" Heritage="PresetUseResultMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PresetUseResultWithMissingIdsMessage" Id="4515" Heritage="PresetUseResultMessage">
 	<Fields>
 		<XmlField Name="missingIds" Type="varuhshort[]" />
 	</Fields>

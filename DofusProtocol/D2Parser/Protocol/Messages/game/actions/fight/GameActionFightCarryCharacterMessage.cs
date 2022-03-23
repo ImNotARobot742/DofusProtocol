@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:10
+// Generated on 03/23/2022 09:50:10
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GameActionFightCarryCharacterMessage : AbstractGameActionMessage
     {
-        public const uint Id = 5643;
+        public const uint Id = 3830;
         public override uint MessageId
         {
             get { return Id; }

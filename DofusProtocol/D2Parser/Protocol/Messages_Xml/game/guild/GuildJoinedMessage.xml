@@ -1,6 +1,6 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildJoinedMessage" Id="1218" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildJoinedMessage" Id="2641" Heritage="Message">
 	<Fields>
 		<XmlField Name="guildInfo" Type="Types.GuildInformations" />
-		<XmlField Name="memberRights" Type="varuhint" Condition="memberRights &lt; 0" />
+		<XmlField Name="rankId" Type="varuhint" Condition="rankId &lt; 0" />
 	</Fields>
 </XmlMessage>

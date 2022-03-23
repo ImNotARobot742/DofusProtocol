@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismFightSwapRequestMessage" Id="4070" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismFightSwapRequestMessage" Id="4637" Heritage="Message">
 	<Fields>
 		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
 		<XmlField Name="targetId" Type="varuhlong" Condition="targetId &lt; 0 || targetId &gt; 9007199254740992" />

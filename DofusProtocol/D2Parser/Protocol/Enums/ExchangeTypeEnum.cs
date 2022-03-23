@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:41:06
+// Generated on 03/23/2022 09:52:00
 using System;
 using System.Collections.Generic;
 
@@ -39,5 +39,6 @@ namespace AmaknaProxy.API.Protocol.Enums
         NPC_TRADE_RHINEETLE = 28,
         EVOLUTIVE_OBJECT_ELEMENTARY_RECYCLE = 29,
         NPC_RIDE_CAPABILITY_TRADE = 30,
+        GUILD_CHEST = 31,
     }
 }

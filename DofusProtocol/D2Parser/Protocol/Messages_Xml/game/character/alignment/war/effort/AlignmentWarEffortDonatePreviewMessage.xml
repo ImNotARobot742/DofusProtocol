@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AlignmentWarEffortDonatePreviewMessage" Id="2736" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AlignmentWarEffortDonatePreviewMessage" Id="9897" Heritage="Message">
 	<Fields>
 		<XmlField Name="xp" Type="double" Condition="xp &lt; -9007199254740992 || xp &gt; 9007199254740992" />
 	</Fields>

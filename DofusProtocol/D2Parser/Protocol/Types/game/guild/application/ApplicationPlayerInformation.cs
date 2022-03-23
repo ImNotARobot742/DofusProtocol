@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:07
+// Generated on 03/23/2022 09:51:36
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,13 +10,13 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class ApplicationPlayerInformation
     {
-        public const short Id = 3872;
+        public const short Id = 6686;
         public virtual short TypeId
         {
             get { return Id; }
         }
         
-        public uint playerId;
+        public double playerId;
         public string playerName;
         public sbyte breed;
         public bool sex;
@@ -30,7 +30,7 @@ namespace AmaknaProxy.API.Protocol.Types
         {
         }
         
-        public ApplicationPlayerInformation(uint playerId, string playerName, sbyte breed, bool sex, uint level, uint accountId, string accountTag, string accountNickname, Types.PlayerStatus status)
+        public ApplicationPlayerInformation(double playerId, string playerName, sbyte breed, bool sex, uint level, uint accountId, string accountTag, string accountNickname, Types.PlayerStatus status)
         {
             this.playerId = playerId;
             this.playerName = playerName;
@@ -45,7 +45,7 @@ namespace AmaknaProxy.API.Protocol.Types
         
         public virtual void Serialize(IDataWriter writer)
         {
-            writer.WriteVarInt((int)playerId);
+            writer.WriteVarLong(playerId);
             writer.WriteUTF(playerName);
             writer.WriteSbyte(breed);
             writer.WriteBoolean(sex);
@@ -58,7 +58,7 @@ namespace AmaknaProxy.API.Protocol.Types
         
         public virtual void Deserialize(IDataReader reader)
         {
-            playerId = reader.ReadVarUInt();
+            playerId = reader.ReadVarULong();
             playerName = reader.ReadUTF();
             breed = reader.ReadSbyte();
             sex = reader.ReadBoolean();

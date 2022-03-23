@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorDialogQuestionExtendedMessage" Id="625" Heritage="TaxCollectorDialogQuestionBasicMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorDialogQuestionExtendedMessage" Id="9849" Heritage="TaxCollectorDialogQuestionBasicMessage">
 	<Fields>
 		<XmlField Name="maxPods" Type="varuhshort" Condition="maxPods &lt; 0" />
 		<XmlField Name="prospecting" Type="varuhshort" Condition="prospecting &lt; 0" />

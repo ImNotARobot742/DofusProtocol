@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectUseMultipleMessage" Id="1126" Heritage="ObjectUseMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectUseMultipleMessage" Id="2182" Heritage="ObjectUseMessage">
 	<Fields>
 		<XmlField Name="quantity" Type="varuhint" Condition="quantity &lt; 0" />
 	</Fields>
