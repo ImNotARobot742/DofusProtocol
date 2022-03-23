@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildApplicationIsAnsweredMessage" Id="33" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildApplicationIsAnsweredMessage" Id="3119" Heritage="Message">
 	<Fields>
 		<XmlField Name="accepted" Type="boolean" />
 		<XmlField Name="guildInformation" Type="Types.GuildInformations" />

@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GoldItem" Id="396" Heritage="Item">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GoldItem" Id="7805" Heritage="Item">
 	<Fields>
 		<XmlField Name="sum" Type="varuhlong" Condition="sum &lt; 0 || sum &gt; 9007199254740992" />
 	</Fields>

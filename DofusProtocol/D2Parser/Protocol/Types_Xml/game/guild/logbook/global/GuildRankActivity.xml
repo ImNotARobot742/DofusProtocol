@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildRankActivity" Id="6586" Heritage="GuildLogbookEntryBasicInformation">
+	<Fields>
+		<XmlField Name="rankActivityType" Type="sbyte" Condition="rankActivityType &lt; 0" />
+		<XmlField Name="guildRankMinimalInfos" Type="Types.GuildRankMinimalInformation" />
+	</Fields>
+</XmlType>

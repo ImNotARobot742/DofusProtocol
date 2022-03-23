@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractGameActionMessage" Id="5037" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractGameActionMessage" Id="9188" Heritage="Message">
 	<Fields>
 		<XmlField Name="actionId" Type="varuhshort" Condition="actionId &lt; 0" />
 		<XmlField Name="sourceId" Type="double" Condition="sourceId &lt; -9007199254740992 || sourceId &gt; 9007199254740992" />

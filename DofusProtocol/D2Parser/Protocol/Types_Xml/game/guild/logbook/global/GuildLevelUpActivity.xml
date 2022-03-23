@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildLevelUpActivity" Id="7901" Heritage="GuildLogbookEntryBasicInformation">
+	<Fields>
+		<XmlField Name="newGuildLevel" Type="byte" Condition="newGuildLevel &lt; 0 || newGuildLevel &gt; 255" />
+	</Fields>
+</XmlType>

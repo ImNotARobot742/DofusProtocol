@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeCraftResultMagicWithObjectDescMessage" Id="6242" Heritage="ExchangeCraftResultWithObjectDescMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeCraftResultMagicWithObjectDescMessage" Id="2638" Heritage="ExchangeCraftResultWithObjectDescMessage">
 	<Fields>
 		<XmlField Name="magicPoolStatus" Type="sbyte" />
 	</Fields>

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AccountLoggingKickedMessage" Id="7661" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AccountLoggingKickedMessage" Id="3647" Heritage="Message">
 	<Fields>
 		<XmlField Name="days" Type="varuhshort" Condition="days &lt; 0" />
 		<XmlField Name="hours" Type="sbyte" Condition="hours &lt; 0" />

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TreasureHuntGiveUpRequestMessage" Id="2962" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TreasureHuntGiveUpRequestMessage" Id="4966" Heritage="Message">
 	<Fields>
 		<XmlField Name="questType" Type="sbyte" Condition="questType &lt; 0" />
 	</Fields>

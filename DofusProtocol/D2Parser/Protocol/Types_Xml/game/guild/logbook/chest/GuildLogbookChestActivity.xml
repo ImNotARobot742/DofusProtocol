@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildLogbookChestActivity" Id="3291" Heritage="GuildLogbookEntryBasicInformation">
+	<Fields>
+		<XmlField Name="playerId" Type="varuhlong" Condition="playerId &lt; 0 || playerId &gt; 9007199254740992" />
+		<XmlField Name="playerName" Type="utf" />
+		<XmlField Name="eventType" Type="sbyte" Condition="eventType &lt; 0" />
+		<XmlField Name="quantity" Type="int" Condition="quantity &lt; 0" />
+		<XmlField Name="@object" Type="Types.ObjectItemNotInContainer" />
+	</Fields>
+</XmlType>

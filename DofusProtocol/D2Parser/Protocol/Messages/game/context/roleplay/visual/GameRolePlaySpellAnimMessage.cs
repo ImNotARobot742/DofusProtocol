@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:38
+// Generated on 03/23/2022 09:50:29
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GameRolePlaySpellAnimMessage : NetworkMessage
     {
-        public const uint Id = 8430;
+        public const uint Id = 6811;
         public override uint MessageId
         {
             get { return Id; }
@@ -22,17 +22,19 @@ namespace AmaknaProxy.API.Protocol.Messages
         public uint targetCellId;
         public uint spellId;
         public short spellLevel;
+        public short direction;
         
         public GameRolePlaySpellAnimMessage()
         {
         }
         
-        public GameRolePlaySpellAnimMessage(double casterId, uint targetCellId, uint spellId, short spellLevel)
+        public GameRolePlaySpellAnimMessage(double casterId, uint targetCellId, uint spellId, short spellLevel, short direction)
         {
             this.casterId = casterId;
             this.targetCellId = targetCellId;
             this.spellId = spellId;
             this.spellLevel = spellLevel;
+            this.direction = direction;
         }
         
         public override void Serialize(IDataWriter writer)
@@ -41,6 +43,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             writer.WriteVarShort((short)targetCellId);
             writer.WriteVarShort((short)spellId);
             writer.WriteShort(spellLevel);
+            writer.WriteShort(direction);
         }
         
         public override void Deserialize(IDataReader reader)
@@ -49,6 +52,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             targetCellId = reader.ReadVarUShort();
             spellId = reader.ReadVarUShort();
             spellLevel = reader.ReadShort();
+            direction = reader.ReadShort();
         }
         
     }

@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PlayerSearchTagInformation" Id="3556" Heritage="AbstractPlayerSearchInformation">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PlayerSearchTagInformation" Id="9839" Heritage="AbstractPlayerSearchInformation">
 	<Fields>
 		<XmlField Name="tag" Type="Types.AccountTagInformation" />
 	</Fields>

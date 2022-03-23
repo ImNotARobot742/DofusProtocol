@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementRewardErrorMessage" Id="8883" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementRewardErrorMessage" Id="5763" Heritage="Message">
 	<Fields>
 		<XmlField Name="achievementId" Type="short" />
 	</Fields>

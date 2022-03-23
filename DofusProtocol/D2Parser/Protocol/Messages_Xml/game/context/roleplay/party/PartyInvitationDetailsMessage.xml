@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyInvitationDetailsMessage" Id="3615" Heritage="AbstractPartyMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyInvitationDetailsMessage" Id="5287" Heritage="AbstractPartyMessage">
 	<Fields>
 		<XmlField Name="partyType" Type="sbyte" Condition="partyType &lt; 0" />
 		<XmlField Name="partyName" Type="utf" />

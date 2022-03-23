@@ -1,3 +1,3 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuidedModeReturnRequestMessage" Id="2230" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuidedModeReturnRequestMessage" Id="6605" Heritage="Message">
 	<Fields />
 </XmlMessage>

@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:08
+// Generated on 03/23/2022 09:50:09
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,24 +12,22 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class ServersListMessage : NetworkMessage
     {
-        public const uint Id = 786;
+        public const uint Id = 4863;
         public override uint MessageId
         {
             get { return Id; }
         }
         
         public Types.GameServerInformations[] servers;
-        public uint alreadyConnectedToServerId;
         public bool canCreateNewCharacter;
         
         public ServersListMessage()
         {
         }
         
-        public ServersListMessage(Types.GameServerInformations[] servers, uint alreadyConnectedToServerId, bool canCreateNewCharacter)
+        public ServersListMessage(Types.GameServerInformations[] servers, bool canCreateNewCharacter)
         {
             this.servers = servers;
-            this.alreadyConnectedToServerId = alreadyConnectedToServerId;
             this.canCreateNewCharacter = canCreateNewCharacter;
         }
         
@@ -40,7 +38,6 @@ namespace AmaknaProxy.API.Protocol.Messages
             {
                  entry.Serialize(writer);
             }
-            writer.WriteVarShort((short)alreadyConnectedToServerId);
             writer.WriteBoolean(canCreateNewCharacter);
         }
         
@@ -53,7 +50,6 @@ namespace AmaknaProxy.API.Protocol.Messages
                  servers[i] = new Types.GameServerInformations();
                  servers[i].Deserialize(reader);
             }
-            alreadyConnectedToServerId = reader.ReadVarUShort();
             canCreateNewCharacter = reader.ReadBoolean();
         }
         

@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:42
+// Generated on 03/23/2022 09:50:32
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,20 +12,20 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GuildApplicationAnswerMessage : NetworkMessage
     {
-        public const uint Id = 5404;
+        public const uint Id = 507;
         public override uint MessageId
         {
             get { return Id; }
         }
         
         public bool accepted;
-        public uint playerId;
+        public double playerId;
         
         public GuildApplicationAnswerMessage()
         {
         }
         
-        public GuildApplicationAnswerMessage(bool accepted, uint playerId)
+        public GuildApplicationAnswerMessage(bool accepted, double playerId)
         {
             this.accepted = accepted;
             this.playerId = playerId;
@@ -34,13 +34,13 @@ namespace AmaknaProxy.API.Protocol.Messages
         public override void Serialize(IDataWriter writer)
         {
             writer.WriteBoolean(accepted);
-            writer.WriteVarInt((int)playerId);
+            writer.WriteVarLong(playerId);
         }
         
         public override void Deserialize(IDataReader reader)
         {
             accepted = reader.ReadBoolean();
-            playerId = reader.ReadVarUInt();
+            playerId = reader.ReadVarULong();
         }
         
     }

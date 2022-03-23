@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayArenaRegistrationWarningMessage" Id="1528" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayArenaRegistrationWarningMessage" Id="9396" Heritage="Message">
 	<Fields>
 		<XmlField Name="battleMode" Type="int" Condition="battleMode &lt; 0" />
 	</Fields>

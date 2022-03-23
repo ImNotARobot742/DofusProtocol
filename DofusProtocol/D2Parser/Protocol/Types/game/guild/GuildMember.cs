@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:07
+// Generated on 03/23/2022 09:51:36
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class GuildMember : CharacterMinimalInformations
     {
-        public const short Id = 5491;
+        public const short Id = 9147;
         public override short TypeId
         {
             get { return Id; }
@@ -19,10 +19,9 @@ namespace AmaknaProxy.API.Protocol.Types
         public bool sex;
         public bool havenBagShared;
         public sbyte breed;
-        public uint rank;
+        public uint rankId;
         public double givenExperience;
         public sbyte experienceGivenPercent;
-        public uint rights;
         public sbyte connected;
         public sbyte alignmentSide;
         public ushort hoursSinceLastConnection;
@@ -30,21 +29,21 @@ namespace AmaknaProxy.API.Protocol.Types
         public int accountId;
         public int achievementPoints;
         public Types.PlayerStatus status;
+        public Types.PlayerNote note;
         
         public GuildMember()
         {
         }
         
-        public GuildMember(double id, string name, uint level, bool sex, bool havenBagShared, sbyte breed, uint rank, double givenExperience, sbyte experienceGivenPercent, uint rights, sbyte connected, sbyte alignmentSide, ushort hoursSinceLastConnection, uint moodSmileyId, int accountId, int achievementPoints, Types.PlayerStatus status)
+        public GuildMember(double id, string name, uint level, bool sex, bool havenBagShared, sbyte breed, uint rankId, double givenExperience, sbyte experienceGivenPercent, sbyte connected, sbyte alignmentSide, ushort hoursSinceLastConnection, uint moodSmileyId, int accountId, int achievementPoints, Types.PlayerStatus status, Types.PlayerNote note)
          : base(id, name, level)
         {
             this.sex = sex;
             this.havenBagShared = havenBagShared;
             this.breed = breed;
-            this.rank = rank;
+            this.rankId = rankId;
             this.givenExperience = givenExperience;
             this.experienceGivenPercent = experienceGivenPercent;
-            this.rights = rights;
             this.connected = connected;
             this.alignmentSide = alignmentSide;
             this.hoursSinceLastConnection = hoursSinceLastConnection;
@@ -52,6 +51,7 @@ namespace AmaknaProxy.API.Protocol.Types
             this.accountId = accountId;
             this.achievementPoints = achievementPoints;
             this.status = status;
+            this.note = note;
         }
         
         public override void Serialize(IDataWriter writer)
@@ -62,10 +62,9 @@ namespace AmaknaProxy.API.Protocol.Types
             flag1 = BooleanByteWrapper.SetFlag(flag1, 1, havenBagShared);
             writer.WriteByte(flag1);
             writer.WriteSbyte(breed);
-            writer.WriteVarShort((short)rank);
+            writer.WriteVarInt((int)rankId);
             writer.WriteVarLong(givenExperience);
             writer.WriteSbyte(experienceGivenPercent);
-            writer.WriteVarInt((int)rights);
             writer.WriteSbyte(connected);
             writer.WriteSbyte(alignmentSide);
             writer.WriteUShort(hoursSinceLastConnection);
@@ -74,6 +73,7 @@ namespace AmaknaProxy.API.Protocol.Types
             writer.WriteInt(achievementPoints);
             writer.WriteShort(status.TypeId);
             status.Serialize(writer);
+            note.Serialize(writer);
         }
         
         public override void Deserialize(IDataReader reader)
@@ -83,10 +83,9 @@ namespace AmaknaProxy.API.Protocol.Types
             sex = BooleanByteWrapper.GetFlag(flag1, 0);
             havenBagShared = BooleanByteWrapper.GetFlag(flag1, 1);
             breed = reader.ReadSbyte();
-            rank = reader.ReadVarUShort();
+            rankId = reader.ReadVarUInt();
             givenExperience = reader.ReadVarULong();
             experienceGivenPercent = reader.ReadSbyte();
-            rights = reader.ReadVarUInt();
             connected = reader.ReadSbyte();
             alignmentSide = reader.ReadSbyte();
             hoursSinceLastConnection = reader.ReadUShort();
@@ -95,6 +94,8 @@ namespace AmaknaProxy.API.Protocol.Types
             achievementPoints = reader.ReadInt();
             status = ProtocolTypeManager.GetInstance<Types.PlayerStatus>(reader.ReadUShort());
             status.Deserialize(reader);
+            note = new Types.PlayerNote();
+            note.Deserialize(reader);
         }
         
     }

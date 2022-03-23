@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeMultiCraftCrafterCanUseHisRessourcesMessage" Id="264" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeMultiCraftCrafterCanUseHisRessourcesMessage" Id="4359" Heritage="Message">
 	<Fields>
 		<XmlField Name="allowed" Type="boolean" />
 	</Fields>

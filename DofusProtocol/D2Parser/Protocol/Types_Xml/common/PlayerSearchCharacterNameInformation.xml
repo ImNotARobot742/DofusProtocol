@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PlayerSearchCharacterNameInformation" Id="6431" Heritage="AbstractPlayerSearchInformation">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PlayerSearchCharacterNameInformation" Id="8198" Heritage="AbstractPlayerSearchInformation">
 	<Fields>
 		<XmlField Name="name" Type="utf" />
 	</Fields>

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractPartyMemberInFightMessage" Id="1888" Heritage="AbstractPartyMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractPartyMemberInFightMessage" Id="1165" Heritage="AbstractPartyMessage">
 	<Fields>
 		<XmlField Name="reason" Type="sbyte" Condition="reason &lt; 0" />
 		<XmlField Name="memberId" Type="varuhlong" Condition="memberId &lt; 0 || memberId &gt; 9007199254740992" />

@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:41
+// Generated on 03/23/2022 09:50:32
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GuildMembershipMessage : GuildJoinedMessage
     {
-        public const uint Id = 6499;
+        public const uint Id = 2565;
         public override uint MessageId
         {
             get { return Id; }
@@ -23,8 +23,8 @@ namespace AmaknaProxy.API.Protocol.Messages
         {
         }
         
-        public GuildMembershipMessage(Types.GuildInformations guildInfo, uint memberRights)
-         : base(guildInfo, memberRights)
+        public GuildMembershipMessage(Types.GuildInformations guildInfo, uint rankId)
+         : base(guildInfo, rankId)
         {
         }
         

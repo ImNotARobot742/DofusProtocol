@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterMinimalPlusLookInformations" Id="9551" Heritage="CharacterMinimalInformations">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterMinimalPlusLookInformations" Id="6908" Heritage="CharacterMinimalInformations">
 	<Fields>
 		<XmlField Name="entityLook" Type="Types.EntityLook" />
 		<XmlField Name="breed" Type="sbyte" />

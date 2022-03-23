@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeCraftPaymentModifiedMessage" Id="8641" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeCraftPaymentModifiedMessage" Id="9955" Heritage="Message">
 	<Fields>
 		<XmlField Name="goldSum" Type="varuhlong" Condition="goldSum &lt; 0 || goldSum &gt; 9007199254740992" />
 	</Fields>

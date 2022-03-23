@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:41:06
+// Generated on 03/23/2022 09:52:00
 using System;
 using System.Collections.Generic;
 
@@ -17,5 +17,6 @@ namespace AmaknaProxy.API.Protocol.Enums
         INFO_TAX_COLLECTOR_ALLIANCE = 7,
         INFO_TAX_COLLECTOR_LEAVE = 8,
         INFO_RECRUITMENT = 9,
+        INFO_LOGBOOK = 10,
     }
 }

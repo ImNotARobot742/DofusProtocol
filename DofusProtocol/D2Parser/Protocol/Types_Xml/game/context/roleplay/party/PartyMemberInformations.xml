@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyMemberInformations" Id="8492" Heritage="CharacterBaseInformations">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyMemberInformations" Id="8826" Heritage="CharacterBaseInformations">
 	<Fields>
 		<XmlField Name="lifePoints" Type="varuhint" Condition="lifePoints &lt; 0" />
 		<XmlField Name="maxLifePoints" Type="varuhint" Condition="maxLifePoints &lt; 0" />

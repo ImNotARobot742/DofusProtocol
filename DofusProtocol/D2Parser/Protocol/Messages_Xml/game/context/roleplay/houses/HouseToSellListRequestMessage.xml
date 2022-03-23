@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseToSellListRequestMessage" Id="1679" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseToSellListRequestMessage" Id="2476" Heritage="Message">
 	<Fields>
 		<XmlField Name="pageIndex" Type="varuhshort" Condition="pageIndex &lt; 0" />
 	</Fields>

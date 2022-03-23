@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:10
+// Generated on 03/23/2022 09:51:38
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class TrustCertificate
     {
-        public const short Id = 8866;
+        public const short Id = 8303;
         public virtual short TypeId
         {
             get { return Id; }

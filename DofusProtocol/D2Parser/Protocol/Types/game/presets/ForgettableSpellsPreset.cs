@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:09
+// Generated on 03/23/2022 09:51:37
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class ForgettableSpellsPreset : Preset
     {
-        public const short Id = 8231;
+        public const short Id = 5549;
         public override short TypeId
         {
             get { return Id; }

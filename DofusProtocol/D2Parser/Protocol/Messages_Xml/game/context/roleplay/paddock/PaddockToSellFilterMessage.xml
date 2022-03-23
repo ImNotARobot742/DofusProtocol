@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaddockToSellFilterMessage" Id="8388" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaddockToSellFilterMessage" Id="6894" Heritage="Message">
 	<Fields>
 		<XmlField Name="areaId" Type="int" />
 		<XmlField Name="atLeastNbMount" Type="sbyte" />

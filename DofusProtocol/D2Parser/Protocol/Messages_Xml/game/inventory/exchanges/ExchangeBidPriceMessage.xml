@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidPriceMessage" Id="8533" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidPriceMessage" Id="4385" Heritage="Message">
 	<Fields>
 		<XmlField Name="genericId" Type="varuhshort" Condition="genericId &lt; 0" />
 		<XmlField Name="averagePrice" Type="varlong" Condition="averagePrice &lt; -9007199254740992 || averagePrice &gt; 9007199254740992" />

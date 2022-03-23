@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:59
+// Generated on 03/23/2022 09:51:29
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class AbstractCharacterInformation
     {
-        public const short Id = 2714;
+        public const short Id = 776;
         public virtual short TypeId
         {
             get { return Id; }

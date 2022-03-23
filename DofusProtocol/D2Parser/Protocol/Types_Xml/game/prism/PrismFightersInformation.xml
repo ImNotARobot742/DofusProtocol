@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismFightersInformation" Id="8909" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PrismFightersInformation" Id="9984" Heritage="">
 	<Fields>
 		<XmlField Name="subAreaId" Type="varuhshort" Condition="subAreaId &lt; 0" />
 		<XmlField Name="waitingForHelpInfo" Type="Types.ProtectedEntityWaitingForHelpInfo" />

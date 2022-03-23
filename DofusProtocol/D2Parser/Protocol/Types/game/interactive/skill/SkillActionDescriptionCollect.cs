@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:08
+// Generated on 03/23/2022 09:51:37
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class SkillActionDescriptionCollect : SkillActionDescriptionTimed
     {
-        public const short Id = 5191;
+        public const short Id = 8067;
         public override short TypeId
         {
             get { return Id; }
