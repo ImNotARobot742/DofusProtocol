@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameContextActorPositionInformations" Id="1244" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameContextActorPositionInformations" Id="261" Heritage="">
 	<Fields>
 		<XmlField Name="contextualId" Type="double" Condition="contextualId &lt; -9007199254740992 || contextualId &gt; 9007199254740992" />
 		<XmlField Name="disposition" Type="instance of Types.EntityDispositionInformations" />

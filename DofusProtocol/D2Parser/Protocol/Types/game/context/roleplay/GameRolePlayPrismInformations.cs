@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:04
+// Generated on 03/23/2022 09:51:33
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class GameRolePlayPrismInformations : GameRolePlayActorInformations
     {
-        public const short Id = 6265;
+        public const short Id = 882;
         public override short TypeId
         {
             get { return Id; }

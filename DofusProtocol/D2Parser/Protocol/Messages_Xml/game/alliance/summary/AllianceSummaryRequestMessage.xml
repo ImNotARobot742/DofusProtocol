@@ -1,0 +1,9 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceSummaryRequestMessage" Id="4135" Heritage="PaginationRequestAbstractMessage">
+	<Fields>
+		<XmlField Name="nameFilter" Type="utf" />
+		<XmlField Name="tagFilter" Type="utf" />
+		<XmlField Name="playerNameFilter" Type="utf" />
+		<XmlField Name="sortType" Type="sbyte" Condition="sortType &lt; 0" />
+		<XmlField Name="sortDescending" Type="boolean" />
+	</Fields>
+</XmlMessage>

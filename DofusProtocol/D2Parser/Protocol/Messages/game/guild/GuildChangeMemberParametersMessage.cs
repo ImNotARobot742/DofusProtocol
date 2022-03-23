@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:40
+// Generated on 03/23/2022 09:50:31
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,43 +12,39 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GuildChangeMemberParametersMessage : NetworkMessage
     {
-        public const uint Id = 3633;
+        public const uint Id = 9008;
         public override uint MessageId
         {
             get { return Id; }
         }
         
         public double memberId;
-        public uint rank;
+        public uint rankId;
         public sbyte experienceGivenPercent;
-        public uint rights;
         
         public GuildChangeMemberParametersMessage()
         {
         }
         
-        public GuildChangeMemberParametersMessage(double memberId, uint rank, sbyte experienceGivenPercent, uint rights)
+        public GuildChangeMemberParametersMessage(double memberId, uint rankId, sbyte experienceGivenPercent)
         {
             this.memberId = memberId;
-            this.rank = rank;
+            this.rankId = rankId;
             this.experienceGivenPercent = experienceGivenPercent;
-            this.rights = rights;
         }
         
         public override void Serialize(IDataWriter writer)
         {
             writer.WriteVarLong(memberId);
-            writer.WriteVarShort((short)rank);
+            writer.WriteVarInt((int)rankId);
             writer.WriteSbyte(experienceGivenPercent);
-            writer.WriteVarInt((int)rights);
         }
         
         public override void Deserialize(IDataReader reader)
         {
             memberId = reader.ReadVarULong();
-            rank = reader.ReadVarUShort();
+            rankId = reader.ReadVarUInt();
             experienceGivenPercent = reader.ReadSbyte();
-            rights = reader.ReadVarUInt();
         }
         
     }

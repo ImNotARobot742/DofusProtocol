@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildFightJoinRequestMessage" Id="9050" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildFightJoinRequestMessage" Id="7277" Heritage="Message">
 	<Fields>
 		<XmlField Name="taxCollectorId" Type="double" Condition="taxCollectorId &lt; 0 || taxCollectorId &gt; 9007199254740992" />
 	</Fields>

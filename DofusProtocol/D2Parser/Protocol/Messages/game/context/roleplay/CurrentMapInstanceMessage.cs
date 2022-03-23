@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:26
+// Generated on 03/23/2022 09:50:20
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class CurrentMapInstanceMessage : CurrentMapMessage
     {
-        public const uint Id = 7422;
+        public const uint Id = 7813;
         public override uint MessageId
         {
             get { return Id; }
@@ -24,8 +24,8 @@ namespace AmaknaProxy.API.Protocol.Messages
         {
         }
         
-        public CurrentMapInstanceMessage(double mapId, string mapKey, double instantiatedMapId)
-         : base(mapId, mapKey)
+        public CurrentMapInstanceMessage(double mapId, double instantiatedMapId)
+         : base(mapId)
         {
             this.instantiatedMapId = instantiatedMapId;
         }

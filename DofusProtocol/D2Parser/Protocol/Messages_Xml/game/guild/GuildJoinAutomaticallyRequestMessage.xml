@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildJoinAutomaticallyRequestMessage" Id="6478" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildJoinAutomaticallyRequestMessage" Id="3965" Heritage="Message">
 	<Fields>
 		<XmlField Name="guildId" Type="int" />
 	</Fields>

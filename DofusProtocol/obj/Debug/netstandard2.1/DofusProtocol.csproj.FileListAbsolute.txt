@@ -23,3 +23,4 @@ C:\Users\Thur\Documents\GitHub\DofusProtocol\DofusProtocol\obj\Debug\netstandard
 C:\Users\Thur\Documents\GitHub\DofusProtocol\DofusProtocol\obj\Debug\netstandard2.1\DofusProtocol.csproj.CoreCompileInputs.cache
 C:\Users\Thur\Documents\GitHub\DofusProtocol\DofusProtocol\obj\Debug\netstandard2.1\DofusProtocol.dll
 C:\Users\Thur\Documents\GitHub\DofusProtocol\DofusProtocol\obj\Debug\netstandard2.1\DofusProtocol.pdb
+C:\Users\Thur\Documents\GitHub\DofusProtocol\DofusProtocol\obj\Debug\netstandard2.1\DofusProtocol.GeneratedMSBuildEditorConfig.editorconfig

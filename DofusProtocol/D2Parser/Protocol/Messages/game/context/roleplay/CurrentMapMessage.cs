@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:26
+// Generated on 03/23/2022 09:50:20
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,35 +12,31 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class CurrentMapMessage : NetworkMessage
     {
-        public const uint Id = 9325;
+        public const uint Id = 3871;
         public override uint MessageId
         {
             get { return Id; }
         }
         
         public double mapId;
-        public string mapKey;
         
         public CurrentMapMessage()
         {
         }
         
-        public CurrentMapMessage(double mapId, string mapKey)
+        public CurrentMapMessage(double mapId)
         {
             this.mapId = mapId;
-            this.mapKey = mapKey;
         }
         
         public override void Serialize(IDataWriter writer)
         {
             writer.WriteDouble(mapId);
-            writer.WriteUTF(mapKey);
         }
         
         public override void Deserialize(IDataReader reader)
         {
             mapId = reader.ReadDouble();
-            mapKey = reader.ReadUTF();
         }
         
     }

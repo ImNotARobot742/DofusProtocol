@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:02
+// Generated on 03/23/2022 09:51:31
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class GameFightFighterNamedInformations : GameFightFighterInformations
     {
-        public const short Id = 7293;
+        public const short Id = 3364;
         public override short TypeId
         {
             get { return Id; }

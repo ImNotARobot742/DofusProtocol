@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterUsableCharacteristicDetailed" Id="9575" Heritage="CharacterCharacteristicDetailed">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterUsableCharacteristicDetailed" Id="3142" Heritage="CharacterCharacteristicDetailed">
 	<Fields>
 		<XmlField Name="used" Type="varuhshort" Condition="used &lt; 0" />
 	</Fields>

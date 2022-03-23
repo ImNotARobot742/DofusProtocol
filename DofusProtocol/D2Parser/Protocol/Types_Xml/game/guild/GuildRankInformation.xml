@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildRankInformation" Id="742" Heritage="GuildRankMinimalInformation">
+	<Fields>
+		<XmlField Name="order" Type="varuhint" Condition="order &lt; 0" />
+		<XmlField Name="gfxId" Type="varuhint" Condition="gfxId &lt; 0" />
+		<XmlField Name="modifiable" Type="boolean" />
+		<XmlField Name="rights" Type="varuhint[]" />
+	</Fields>
+</XmlType>

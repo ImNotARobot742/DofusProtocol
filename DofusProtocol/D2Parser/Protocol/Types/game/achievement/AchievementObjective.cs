@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:58
+// Generated on 03/23/2022 09:51:28
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class AchievementObjective
     {
-        public const short Id = 8917;
+        public const short Id = 6663;
         public virtual short TypeId
         {
             get { return Id; }

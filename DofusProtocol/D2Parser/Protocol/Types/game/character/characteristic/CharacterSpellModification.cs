@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:00
+// Generated on 03/23/2022 09:51:29
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class CharacterSpellModification
     {
-        public const short Id = 4425;
+        public const short Id = 5654;
         public virtual short TypeId
         {
             get { return Id; }

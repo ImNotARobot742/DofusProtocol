@@ -1,6 +1,6 @@
 
 
-// Generated on 09/21/2021 19:35:45
+// Generated on 03/23/2022 09:50:09
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class DebugClearHighlightCellsMessage : NetworkMessage
     {
-        public const uint Id = 7645;
+        public const uint Id = 3285;
         public override uint MessageId
         {
             get { return Id; }

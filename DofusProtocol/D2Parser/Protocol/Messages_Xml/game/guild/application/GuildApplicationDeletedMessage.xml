@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildApplicationDeletedMessage" Id="5546" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildApplicationDeletedMessage" Id="2156" Heritage="Message">
 	<Fields>
 		<XmlField Name="deleted" Type="boolean" />
 	</Fields>

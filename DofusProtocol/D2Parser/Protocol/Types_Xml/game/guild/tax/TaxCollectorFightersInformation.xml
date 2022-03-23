@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorFightersInformation" Id="9650" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorFightersInformation" Id="9834" Heritage="">
 	<Fields>
 		<XmlField Name="collectorId" Type="double" Condition="collectorId &lt; 0 || collectorId &gt; 9007199254740992" />
 		<XmlField Name="allyCharactersInformations" Type="instance of Types.CharacterMinimalPlusLookInformations[]" />

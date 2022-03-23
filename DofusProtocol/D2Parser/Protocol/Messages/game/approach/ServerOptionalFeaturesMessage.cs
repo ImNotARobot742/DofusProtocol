@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:39:15
+// Generated on 03/23/2022 09:50:13
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,39 +12,39 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class ServerOptionalFeaturesMessage : NetworkMessage
     {
-        public const uint Id = 189;
+        public const uint Id = 7447;
         public override uint MessageId
         {
             get { return Id; }
         }
         
-        public sbyte[] features;
+        public int[] features;
         
         public ServerOptionalFeaturesMessage()
         {
         }
         
-        public ServerOptionalFeaturesMessage(sbyte[] features)
+        public ServerOptionalFeaturesMessage(int[] features)
         {
             this.features = features;
         }
         
         public override void Serialize(IDataWriter writer)
         {
-            writer.WriteVarInt((int)(ushort)features.Length);
+            writer.WriteShort((short)features.Length);
             foreach (var entry in features)
             {
-                 writer.WriteSbyte(entry);
+                 writer.WriteInt(entry);
             }
         }
         
         public override void Deserialize(IDataReader reader)
         {
-            var limit = (ushort)reader.ReadVarInt();
-            features = new sbyte[limit];
+            var limit = (ushort)reader.ReadUShort();
+            features = new int[limit];
             for (int i = 0; i < limit; i++)
             {
-                 features[i] = reader.ReadSbyte();
+                 features[i] = reader.ReadInt();
             }
         }
         

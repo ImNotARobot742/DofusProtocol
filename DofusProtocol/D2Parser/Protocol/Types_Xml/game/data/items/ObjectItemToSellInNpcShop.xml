@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemToSellInNpcShop" Id="6097" Heritage="ObjectItemMinimalInformation">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemToSellInNpcShop" Id="357" Heritage="ObjectItemMinimalInformation">
 	<Fields>
 		<XmlField Name="objectPrice" Type="varuhlong" Condition="objectPrice &lt; 0 || objectPrice &gt; 9007199254740992" />
 		<XmlField Name="buyCriterion" Type="utf" />

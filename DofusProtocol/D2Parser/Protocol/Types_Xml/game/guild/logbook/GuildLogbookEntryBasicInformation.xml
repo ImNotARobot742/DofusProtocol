@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildLogbookEntryBasicInformation" Id="3961" Heritage="">
+	<Fields>
+		<XmlField Name="id" Type="varuhint" Condition="id &lt; 0" />
+		<XmlField Name="date" Type="double" Condition="date &lt; 0 || date &gt; 9007199254740992" />
+	</Fields>
+</XmlType>

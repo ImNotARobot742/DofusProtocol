@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationMessage" Id="4337" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationMessage" Id="7907" Heritage="Message">
 	<Fields>
 		<XmlField Name="autoconnect" Type="flag(0)" />
 		<XmlField Name="useCertificate" Type="flag(1)" />

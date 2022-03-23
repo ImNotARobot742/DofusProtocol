@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildListApplicationAnswerMessage" Id="1223" Heritage="PaginationAnswerAbstractMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildListApplicationAnswerMessage" Id="169" Heritage="PaginationAnswerAbstractMessage">
 	<Fields>
 		<XmlField Name="applies" Type="Types.GuildApplicationInformation[]" />
 	</Fields>

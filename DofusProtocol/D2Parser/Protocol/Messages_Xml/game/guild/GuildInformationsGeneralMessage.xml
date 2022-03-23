@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildInformationsGeneralMessage" Id="8015" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildInformationsGeneralMessage" Id="3873" Heritage="Message">
 	<Fields>
 		<XmlField Name="abandonnedPaddock" Type="boolean" />
 		<XmlField Name="level" Type="byte" Condition="level &lt; 0 || level &gt; 255" />

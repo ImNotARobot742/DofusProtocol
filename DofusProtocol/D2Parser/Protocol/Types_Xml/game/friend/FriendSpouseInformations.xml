@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FriendSpouseInformations" Id="9956" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FriendSpouseInformations" Id="9223" Heritage="">
 	<Fields>
 		<XmlField Name="spouseAccountId" Type="int" Condition="spouseAccountId &lt; 0" />
 		<XmlField Name="spouseId" Type="varuhlong" Condition="spouseId &lt; 0 || spouseId &gt; 9007199254740992" />

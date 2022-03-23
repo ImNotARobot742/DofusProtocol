@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildFightTakePlaceRequestMessage" Id="1932" Heritage="GuildFightJoinRequestMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildFightTakePlaceRequestMessage" Id="8088" Heritage="GuildFightJoinRequestMessage">
 	<Fields>
 		<XmlField Name="replacedCharacterId" Type="varuhlong" Condition="replacedCharacterId &lt; 0 || replacedCharacterId &gt; 9007199254740992" />
 	</Fields>

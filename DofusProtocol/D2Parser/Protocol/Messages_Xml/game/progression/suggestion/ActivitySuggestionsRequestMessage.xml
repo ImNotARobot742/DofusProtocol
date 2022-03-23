@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ActivitySuggestionsRequestMessage" Id="2540" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ActivitySuggestionsRequestMessage" Id="3475" Heritage="Message">
 	<Fields>
 		<XmlField Name="minLevel" Type="varuhshort" Condition="minLevel &lt; 0" />
 		<XmlField Name="maxLevel" Type="varuhshort" Condition="maxLevel &lt; 0" />

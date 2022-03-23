@@ -1,6 +1,6 @@
 
 
-// Generated on 01/01/2022 14:40:06
+// Generated on 03/23/2022 09:51:35
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class ObjectItemQuantity : Item
     {
-        public const short Id = 3674;
+        public const short Id = 5342;
         public override short TypeId
         {
             get { return Id; }

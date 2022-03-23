@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeStartedWithPodsMessage" Id="2123" Heritage="ExchangeStartedMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeStartedWithPodsMessage" Id="5367" Heritage="ExchangeStartedMessage">
 	<Fields>
 		<XmlField Name="firstCharacterId" Type="double" Condition="firstCharacterId &lt; -9007199254740992 || firstCharacterId &gt; 9007199254740992" />
 		<XmlField Name="firstCharacterCurrentWeight" Type="varuhint" Condition="firstCharacterCurrentWeight &lt; 0" />

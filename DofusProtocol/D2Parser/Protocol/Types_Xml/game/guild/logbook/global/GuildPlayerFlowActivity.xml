@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildPlayerFlowActivity" Id="9219" Heritage="GuildLogbookEntryBasicInformation">
+	<Fields>
+		<XmlField Name="playerId" Type="varuhlong" Condition="playerId &lt; 0 || playerId &gt; 9007199254740992" />
+		<XmlField Name="playerName" Type="utf" />
+		<XmlField Name="playerFlowEventType" Type="sbyte" Condition="playerFlowEventType &lt; 0" />
+	</Fields>
+</XmlType>
