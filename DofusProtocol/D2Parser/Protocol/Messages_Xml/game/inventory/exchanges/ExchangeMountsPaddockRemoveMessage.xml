@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeMountsPaddockRemoveMessage" Id="4356" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeMountsPaddockRemoveMessage" Id="7945" Heritage="Message">
 	<Fields>
 		<XmlField Name="mountsId" Type="varint[]" />
 	</Fields>

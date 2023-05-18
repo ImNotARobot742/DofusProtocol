@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="KohUpdateMessage" Id="8188" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="KohUpdateMessage" Id="2399" Heritage="Message">
 	<Fields>
 		<XmlField Name="alliances" Type="Types.AllianceInformations[]" />
 		<XmlField Name="allianceNbMembers" Type="varuhshort[]" />

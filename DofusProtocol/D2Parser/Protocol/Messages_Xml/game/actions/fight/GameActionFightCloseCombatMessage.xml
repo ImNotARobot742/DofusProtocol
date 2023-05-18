@@ -1,5 +1,5 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionFightCloseCombatMessage" Id="8107" Heritage="AbstractGameActionFightTargetedAbilityMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionFightCloseCombatMessage" Id="1309" Heritage="AbstractGameActionFightTargetedAbilityMessage">
 	<Fields>
-		<XmlField Name="weaponGenericId" Type="varuhshort" Condition="weaponGenericId &lt; 0" />
+		<XmlField Name="weaponGenericId" Type="varuhint" Condition="weaponGenericId &lt; 0" />
 	</Fields>
 </XmlMessage>

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BreachGameFightEndMessage" Id="1483" Heritage="GameFightEndMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BreachGameFightEndMessage" Id="6359" Heritage="GameFightEndMessage">
 	<Fields>
 		<XmlField Name="budget" Type="int" />
 	</Fields>

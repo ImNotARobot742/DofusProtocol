@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:03
+// Generated on 05/18/2023 15:11:02
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class UpdateMountIntegerCharacteristic : UpdateMountCharacteristic
     {
-        public const short Id = 7155;
+        public const short Id = 1105;
         public override short TypeId
         {
             get { return Id; }

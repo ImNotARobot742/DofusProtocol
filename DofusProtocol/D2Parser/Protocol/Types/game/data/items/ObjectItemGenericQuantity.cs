@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:01
+// Generated on 05/18/2023 15:11:00
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class ObjectItemGenericQuantity : Item
     {
-        public const short Id = 2677;
+        public const short Id = 2339;
         public override short TypeId
         {
             get { return Id; }
@@ -32,14 +32,14 @@ namespace AmaknaProxy.API.Protocol.Types
         public override void Serialize(IDataWriter writer)
         {
             base.Serialize(writer);
-            writer.WriteVarShort((short)objectGID);
+            writer.WriteVarInt((int)objectGID);
             writer.WriteVarInt((int)quantity);
         }
         
         public override void Deserialize(IDataReader reader)
         {
             base.Deserialize(reader);
-            objectGID = reader.ReadVarUShort();
+            objectGID = reader.ReadVarUInt();
             quantity = reader.ReadVarUInt();
         }
         

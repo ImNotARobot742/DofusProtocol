@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ShortcutEmote" Id="3071" Heritage="Shortcut">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ShortcutEmote" Id="1915" Heritage="Shortcut">
 	<Fields>
 		<XmlField Name="emoteId" Type="ushort" Condition="emoteId &lt; 0 || emoteId &gt; 65535" />
 	</Fields>

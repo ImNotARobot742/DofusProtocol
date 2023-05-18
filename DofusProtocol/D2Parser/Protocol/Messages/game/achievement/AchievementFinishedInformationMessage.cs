@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:03
+// Generated on 05/18/2023 15:10:15
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class AchievementFinishedInformationMessage : AchievementFinishedMessage
     {
-        public const uint Id = 7708;
+        public const uint Id = 3389;
         public override uint MessageId
         {
             get { return Id; }

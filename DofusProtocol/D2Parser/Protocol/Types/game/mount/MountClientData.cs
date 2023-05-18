@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:03
+// Generated on 05/18/2023 15:11:02
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class MountClientData
     {
-        public const short Id = 7643;
+        public const short Id = 2265;
         public virtual short TypeId
         {
             get { return Id; }
@@ -137,7 +137,7 @@ namespace AmaknaProxy.API.Protocol.Types
             writer.WriteDouble(boostMax);
             writer.WriteInt(reproductionCount);
             writer.WriteVarInt((int)reproductionCountMax);
-            writer.WriteVarShort((short)harnessGID);
+            writer.WriteVarInt((int)harnessGID);
             writer.WriteShort((short)effectList.Length);
             foreach (var entry in effectList)
             {
@@ -190,7 +190,7 @@ namespace AmaknaProxy.API.Protocol.Types
             boostMax = reader.ReadDouble();
             reproductionCount = reader.ReadInt();
             reproductionCountMax = reader.ReadVarUInt();
-            harnessGID = reader.ReadVarUShort();
+            harnessGID = reader.ReadVarUInt();
             limit = (ushort)reader.ReadUShort();
             effectList = new Types.ObjectEffectInteger[limit];
             for (int i = 0; i < limit; i++)

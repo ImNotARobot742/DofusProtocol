@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:00
+// Generated on 05/18/2023 15:10:59
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class DecraftedItemStackInfo
     {
-        public const short Id = 1111;
+        public const short Id = 1461;
         public virtual short TypeId
         {
             get { return Id; }
@@ -43,7 +43,7 @@ namespace AmaknaProxy.API.Protocol.Types
             writer.WriteShort((short)runesId.Length);
             foreach (var entry in runesId)
             {
-                 writer.WriteVarShort((short)entry);
+                 writer.WriteVarInt((int)entry);
             }
             writer.WriteShort((short)runesQty.Length);
             foreach (var entry in runesQty)
@@ -61,7 +61,7 @@ namespace AmaknaProxy.API.Protocol.Types
             runesId = new uint[limit];
             for (int i = 0; i < limit; i++)
             {
-                 runesId[i] = reader.ReadVarUShort();
+                 runesId[i] = reader.ReadVarUInt();
             }
             limit = (ushort)reader.ReadUShort();
             runesQty = new uint[limit];

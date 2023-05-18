@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorMovementMessage" Id="4091" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorMovementMessage" Id="1421" Heritage="Message">
 	<Fields>
 		<XmlField Name="movementType" Type="sbyte" Condition="movementType &lt; 0" />
 		<XmlField Name="basicInfos" Type="Types.TaxCollectorBasicInformations" />

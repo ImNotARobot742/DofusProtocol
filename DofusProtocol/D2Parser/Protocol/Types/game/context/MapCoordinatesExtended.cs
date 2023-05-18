@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:57
+// Generated on 05/18/2023 15:10:56
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class MapCoordinatesExtended : MapCoordinatesAndId
     {
-        public const short Id = 7377;
+        public const short Id = 4499;
         public override short TypeId
         {
             get { return Id; }

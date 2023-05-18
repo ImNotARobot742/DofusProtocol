@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyFollowStatusUpdateMessage" Id="1757" Heritage="AbstractPartyMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyFollowStatusUpdateMessage" Id="8567" Heritage="AbstractPartyMessage">
 	<Fields>
 		<XmlField Name="success" Type="flag(0)" />
 		<XmlField Name="isFollowed" Type="flag(1)" />

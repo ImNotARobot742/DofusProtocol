@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightTeamMemberInformations" Id="6434" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightTeamMemberInformations" Id="4909" Heritage="">
 	<Fields>
 		<XmlField Name="id" Type="double" Condition="id &lt; -9007199254740992 || id &gt; 9007199254740992" />
 	</Fields>

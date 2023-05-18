@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementFinishedInformationMessage" Id="7708" Heritage="AchievementFinishedMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementFinishedInformationMessage" Id="3389" Heritage="AchievementFinishedMessage">
 	<Fields>
 		<XmlField Name="name" Type="utf" />
 		<XmlField Name="playerId" Type="varuhlong" Condition="playerId &lt; 0 || playerId &gt; 9007199254740992" />

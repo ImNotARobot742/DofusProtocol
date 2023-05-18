@@ -1,7 +1,7 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidHouseInListRemovedMessage" Id="3886" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidHouseInListRemovedMessage" Id="235" Heritage="Message">
 	<Fields>
 		<XmlField Name="itemUID" Type="int" />
-		<XmlField Name="objectGID" Type="varuhshort" Condition="objectGID &lt; 0" />
+		<XmlField Name="objectGID" Type="varuhint" Condition="objectGID &lt; 0" />
 		<XmlField Name="objectType" Type="int" Condition="objectType &lt; 0" />
 	</Fields>
 </XmlMessage>

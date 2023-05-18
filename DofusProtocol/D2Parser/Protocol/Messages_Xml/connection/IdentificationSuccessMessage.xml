@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationSuccessMessage" Id="6384" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationSuccessMessage" Id="2356" Heritage="Message">
 	<Fields>
 		<XmlField Name="hasRights" Type="flag(0)" />
 		<XmlField Name="hasConsoleRight" Type="flag(1)" />

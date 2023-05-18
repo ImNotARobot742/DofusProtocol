@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeRequestMessage" Id="1479" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeRequestMessage" Id="7691" Heritage="Message">
 	<Fields>
 		<XmlField Name="exchangeType" Type="sbyte" />
 	</Fields>

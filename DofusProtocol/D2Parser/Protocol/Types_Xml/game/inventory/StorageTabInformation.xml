@@ -1,0 +1,11 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="StorageTabInformation" Id="2008" Heritage="">
+	<Fields>
+		<XmlField Name="name" Type="utf" />
+		<XmlField Name="tabNumber" Type="varuhint" Condition="tabNumber &lt; 0" />
+		<XmlField Name="picto" Type="varuhint" Condition="picto &lt; 0" />
+		<XmlField Name="openRight" Type="varuhint" Condition="openRight &lt; 0" />
+		<XmlField Name="dropRight" Type="varuhint" Condition="dropRight &lt; 0" />
+		<XmlField Name="takeRight" Type="varuhint" Condition="takeRight &lt; 0" />
+		<XmlField Name="dropTypeLimitation" Type="varuhint[]" />
+	</Fields>
+</XmlType>

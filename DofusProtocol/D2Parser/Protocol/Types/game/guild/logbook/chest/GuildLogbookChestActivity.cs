@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:02
+// Generated on 05/18/2023 15:11:01
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class GuildLogbookChestActivity : GuildLogbookEntryBasicInformation
     {
-        public const short Id = 3291;
+        public const short Id = 4492;
         public override short TypeId
         {
             get { return Id; }
@@ -21,12 +21,14 @@ namespace AmaknaProxy.API.Protocol.Types
         public sbyte eventType;
         public int quantity;
         public Types.ObjectItemNotInContainer @object;
+        public int sourceTabId;
+        public int destinationTabId;
         
         public GuildLogbookChestActivity()
         {
         }
         
-        public GuildLogbookChestActivity(uint id, double date, double playerId, string playerName, sbyte eventType, int quantity, Types.ObjectItemNotInContainer @object)
+        public GuildLogbookChestActivity(uint id, double date, double playerId, string playerName, sbyte eventType, int quantity, Types.ObjectItemNotInContainer @object, int sourceTabId, int destinationTabId)
          : base(id, date)
         {
             this.playerId = playerId;
@@ -34,6 +36,8 @@ namespace AmaknaProxy.API.Protocol.Types
             this.eventType = eventType;
             this.quantity = quantity;
             this.@object = @object;
+            this.sourceTabId = sourceTabId;
+            this.destinationTabId = destinationTabId;
         }
         
         public override void Serialize(IDataWriter writer)
@@ -44,6 +48,8 @@ namespace AmaknaProxy.API.Protocol.Types
             writer.WriteSbyte(eventType);
             writer.WriteInt(quantity);
             @object.Serialize(writer);
+            writer.WriteInt(sourceTabId);
+            writer.WriteInt(destinationTabId);
         }
         
         public override void Deserialize(IDataReader reader)
@@ -55,6 +61,8 @@ namespace AmaknaProxy.API.Protocol.Types
             quantity = reader.ReadInt();
             @object = new Types.ObjectItemNotInContainer();
             @object.Deserialize(reader);
+            sourceTabId = reader.ReadInt();
+            destinationTabId = reader.ReadInt();
         }
         
     }

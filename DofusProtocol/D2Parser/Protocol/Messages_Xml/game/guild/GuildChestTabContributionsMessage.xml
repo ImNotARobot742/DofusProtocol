@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildChestTabContributionsMessage" Id="5384" Heritage="Message">
+	<Fields>
+		<XmlField Name="contributions" Type="Types.Contribution[]" />
+	</Fields>
+</XmlMessage>

@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorInformations" Id="7513" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorInformations" Id="1044" Heritage="">
 	<Fields>
 		<XmlField Name="uniqueId" Type="double" Condition="uniqueId &lt; 0 || uniqueId &gt; 9007199254740992" />
 		<XmlField Name="firtNameId" Type="varuhshort" Condition="firtNameId &lt; 0" />

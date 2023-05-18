@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:38
+// Generated on 05/18/2023 15:10:44
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class ObjectSetPositionMessage : NetworkMessage
     {
-        public const uint Id = 1022;
+        public const uint Id = 8575;
         public override uint MessageId
         {
             get { return Id; }

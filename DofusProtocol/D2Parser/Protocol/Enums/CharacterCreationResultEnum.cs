@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:56:15
+// Generated on 05/18/2023 15:11:11
 using System;
 using System.Collections.Generic;
 
@@ -11,11 +11,10 @@ namespace AmaknaProxy.API.Protocol.Enums
         OK = 0,
         ERR_NO_REASON = 1,
         ERR_INVALID_NAME = 2,
-        ERR_NAME_ALREADY_EXISTS = 3,
-        ERR_TOO_MANY_CHARACTERS = 4,
-        ERR_NOT_ALLOWED = 5,
-        ERR_NEW_PLAYER_NOT_ALLOWED = 6,
-        ERR_RESTRICED_ZONE = 7,
-        ERR_INCONSISTENT_COMMUNITY = 8,
+        ERR_TOO_MANY_CHARACTERS = 3,
+        ERR_NOT_ALLOWED = 4,
+        ERR_NEW_PLAYER_NOT_ALLOWED = 5,
+        ERR_RESTRICTED_ZONE = 6,
+        ERR_INCONSISTENT_COMMUNITY = 7,
     }
 }

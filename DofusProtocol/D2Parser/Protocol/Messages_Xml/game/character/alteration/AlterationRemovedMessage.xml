@@ -1,0 +1,5 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AlterationRemovedMessage" Id="5869" Heritage="Message">
+	<Fields>
+		<XmlField Name="alteration" Type="Types.AlterationInfo" />
+	</Fields>
+</XmlMessage>

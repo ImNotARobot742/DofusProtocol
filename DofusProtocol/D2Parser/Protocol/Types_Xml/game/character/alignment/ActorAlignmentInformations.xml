@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ActorAlignmentInformations" Id="560" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ActorAlignmentInformations" Id="7796" Heritage="">
 	<Fields>
 		<XmlField Name="alignmentSide" Type="sbyte" />
 		<XmlField Name="alignmentValue" Type="sbyte" Condition="alignmentValue &lt; 0" />

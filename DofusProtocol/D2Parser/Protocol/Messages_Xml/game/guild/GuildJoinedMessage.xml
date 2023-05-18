@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildJoinedMessage" Id="2641" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildJoinedMessage" Id="6855" Heritage="Message">
 	<Fields>
 		<XmlField Name="guildInfo" Type="Types.GuildInformations" />
 		<XmlField Name="rankId" Type="varuhint" Condition="rankId &lt; 0" />

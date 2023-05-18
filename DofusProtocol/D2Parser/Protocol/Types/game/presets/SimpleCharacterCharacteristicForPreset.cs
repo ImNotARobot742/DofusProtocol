@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:03
+// Generated on 05/18/2023 15:11:02
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class SimpleCharacterCharacteristicForPreset
     {
-        public const short Id = 7594;
+        public const short Id = 1231;
         public virtual short TypeId
         {
             get { return Id; }
@@ -34,15 +34,15 @@ namespace AmaknaProxy.API.Protocol.Types
         public virtual void Serialize(IDataWriter writer)
         {
             writer.WriteUTF(keyword);
-            writer.WriteVarShort((short)@base);
-            writer.WriteVarShort((short)additionnal);
+            writer.WriteVarInt((int)@base);
+            writer.WriteVarInt((int)additionnal);
         }
         
         public virtual void Deserialize(IDataReader reader)
         {
             keyword = reader.ReadUTF();
-            @base = reader.ReadVarShort();
-            additionnal = reader.ReadVarShort();
+            @base = reader.ReadVarInt();
+            additionnal = reader.ReadVarInt();
         }
         
     }

@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:25
+// Generated on 05/18/2023 15:10:31
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class PartyInvitationDungeonRequestMessage : PartyInvitationRequestMessage
     {
-        public const uint Id = 3384;
+        public const uint Id = 421;
         public override uint MessageId
         {
             get { return Id; }

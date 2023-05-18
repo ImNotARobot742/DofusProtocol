@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:02
+// Generated on 05/18/2023 15:11:01
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class GuildRecruitmentInformation
     {
-        public const short Id = 4522;
+        public const short Id = 2397;
         public virtual short TypeId
         {
             get { return Id; }

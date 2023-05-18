@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:35
+// Generated on 05/18/2023 15:10:40
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class ExchangeCraftResultWithObjectIdMessage : ExchangeCraftResultMessage
     {
-        public const uint Id = 7497;
+        public const uint Id = 2175;
         public override uint MessageId
         {
             get { return Id; }
@@ -33,13 +33,13 @@ namespace AmaknaProxy.API.Protocol.Messages
         public override void Serialize(IDataWriter writer)
         {
             base.Serialize(writer);
-            writer.WriteVarShort((short)objectGenericId);
+            writer.WriteVarInt((int)objectGenericId);
         }
         
         public override void Deserialize(IDataReader reader)
         {
             base.Deserialize(reader);
-            objectGenericId = reader.ReadVarUShort();
+            objectGenericId = reader.ReadVarUInt();
         }
         
     }

@@ -1,0 +1,10 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GroupTeleportPlayerOfferMessage" Id="7151" Heritage="Message">
+	<Fields>
+		<XmlField Name="mapId" Type="double" Condition="mapId &lt; 0 || mapId &gt; 9007199254740992" />
+		<XmlField Name="worldX" Type="short" />
+		<XmlField Name="worldY" Type="short" />
+		<XmlField Name="timeLeft" Type="varuhint" Condition="timeLeft &lt; 0" />
+		<XmlField Name="requesterId" Type="varuhlong" Condition="requesterId &lt; 0 || requesterId &gt; 9007199254740992" />
+		<XmlField Name="requesterName" Type="utf" />
+	</Fields>
+</XmlMessage>

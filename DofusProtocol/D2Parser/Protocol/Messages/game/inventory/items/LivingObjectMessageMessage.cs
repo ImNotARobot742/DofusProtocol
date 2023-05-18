@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:38
+// Generated on 05/18/2023 15:10:43
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class LivingObjectMessageMessage : NetworkMessage
     {
-        public const uint Id = 9837;
+        public const uint Id = 7135;
         public override uint MessageId
         {
             get { return Id; }
@@ -40,7 +40,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             writer.WriteVarShort((short)msgId);
             writer.WriteInt(timeStamp);
             writer.WriteUTF(owner);
-            writer.WriteVarShort((short)objectGenericId);
+            writer.WriteVarInt((int)objectGenericId);
         }
         
         public override void Deserialize(IDataReader reader)
@@ -48,7 +48,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             msgId = reader.ReadVarUShort();
             timeStamp = reader.ReadInt();
             owner = reader.ReadUTF();
-            objectGenericId = reader.ReadVarUShort();
+            objectGenericId = reader.ReadVarUInt();
         }
         
     }

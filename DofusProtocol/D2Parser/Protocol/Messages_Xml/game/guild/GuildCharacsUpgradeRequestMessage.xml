@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildCharacsUpgradeRequestMessage" Id="7782" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildCharacsUpgradeRequestMessage" Id="2078" Heritage="Message">
 	<Fields>
 		<XmlField Name="charaTypeTarget" Type="sbyte" Condition="charaTypeTarget &lt; 0" />
 	</Fields>

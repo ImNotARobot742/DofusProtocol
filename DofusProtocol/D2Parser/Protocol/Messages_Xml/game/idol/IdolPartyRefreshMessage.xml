@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdolPartyRefreshMessage" Id="2234" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdolPartyRefreshMessage" Id="8618" Heritage="Message">
 	<Fields>
 		<XmlField Name="partyIdol" Type="Types.PartyIdol" />
 	</Fields>

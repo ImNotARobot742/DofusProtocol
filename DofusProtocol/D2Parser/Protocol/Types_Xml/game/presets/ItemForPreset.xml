@@ -1,7 +1,7 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ItemForPreset" Id="7757" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ItemForPreset" Id="5749" Heritage="">
 	<Fields>
 		<XmlField Name="position" Type="short" Condition="position &lt; 0" />
-		<XmlField Name="objGid" Type="varuhshort" Condition="objGid &lt; 0" />
+		<XmlField Name="objGid" Type="varuhint" Condition="objGid &lt; 0" />
 		<XmlField Name="objUid" Type="varuhint" Condition="objUid &lt; 0" />
 	</Fields>
 </XmlType>

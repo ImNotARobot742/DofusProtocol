@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:42
+// Generated on 05/18/2023 15:10:47
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class LoginQueueStatusMessage : NetworkMessage
     {
-        public const uint Id = 2055;
+        public const uint Id = 9732;
         public override uint MessageId
         {
             get { return Id; }

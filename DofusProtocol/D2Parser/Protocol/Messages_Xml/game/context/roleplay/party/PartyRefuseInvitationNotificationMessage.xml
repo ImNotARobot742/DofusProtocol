@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyRefuseInvitationNotificationMessage" Id="9315" Heritage="AbstractPartyEventMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyRefuseInvitationNotificationMessage" Id="4742" Heritage="AbstractPartyEventMessage">
 	<Fields>
 		<XmlField Name="guestId" Type="varuhlong" Condition="guestId &lt; 0 || guestId &gt; 9007199254740992" />
 	</Fields>

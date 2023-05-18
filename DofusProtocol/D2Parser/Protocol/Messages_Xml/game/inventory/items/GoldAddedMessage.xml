@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GoldAddedMessage" Id="5700" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GoldAddedMessage" Id="7014" Heritage="Message">
 	<Fields>
 		<XmlField Name="gold" Type="Types.GoldItem" />
 	</Fields>
