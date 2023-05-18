@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImNotARobot742")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Dofus Protocol extracted using the AnkamaProtocol-Builder\r\n")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("2.66.3.15")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.67.10.14")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.67.10.14")]
 [assembly: System.Reflection.AssemblyProductAttribute("DofusProtocol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DofusProtocol")]
