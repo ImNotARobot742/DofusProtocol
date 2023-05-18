@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.66.3.15</Version>
+    <Version>2.67.10.14</Version>
     <Authors>ImNotARobot742</Authors>
     <Description>Dofus Protocol extracted using the AnkamaProtocol-Builder
 </Description>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <AssemblyVersion>2.66.3.15</AssemblyVersion>
+    <AssemblyVersion>2.67.10.14</AssemblyVersion>
     <FileVersion>2.66.3.15</FileVersion>
   </PropertyGroup>
 
