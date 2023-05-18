@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionMark" Id="5902" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionMark" Id="4931" Heritage="">
 	<Fields>
 		<XmlField Name="markAuthorId" Type="double" Condition="markAuthorId &lt; -9007199254740992 || markAuthorId &gt; 9007199254740992" />
 		<XmlField Name="markTeamId" Type="sbyte" Condition="markTeamId &lt; 0" />

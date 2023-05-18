@@ -1,5 +1,6 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCreationResultMessage" Id="8035" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCreationResultMessage" Id="5313" Heritage="Message">
 	<Fields>
 		<XmlField Name="result" Type="sbyte" Condition="result &lt; 0" />
+		<XmlField Name="reason" Type="sbyte" Condition="reason &lt; 0" />
 	</Fields>
 </XmlMessage>

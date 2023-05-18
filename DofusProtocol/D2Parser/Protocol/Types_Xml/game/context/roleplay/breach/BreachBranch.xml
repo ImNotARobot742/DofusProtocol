@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BreachBranch" Id="9447" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BreachBranch" Id="1771" Heritage="">
 	<Fields>
 		<XmlField Name="room" Type="sbyte" Condition="room &lt; 0" />
 		<XmlField Name="element" Type="int" Condition="element &lt; 0" />

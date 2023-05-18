@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeIsReadyMessage" Id="3414" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeIsReadyMessage" Id="8363" Heritage="Message">
 	<Fields>
 		<XmlField Name="id" Type="double" Condition="id &lt; -9007199254740992 || id &gt; 9007199254740992" />
 		<XmlField Name="ready" Type="boolean" />

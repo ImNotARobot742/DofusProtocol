@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeStartedWithMultiTabStorageMessage" Id="3800" Heritage="ExchangeStartedMessage">
+	<Fields>
+		<XmlField Name="storageMaxSlot" Type="varuhint" Condition="storageMaxSlot &lt; 0" />
+		<XmlField Name="tabNumber" Type="varuhint" Condition="tabNumber &lt; 0" />
+	</Fields>
+</XmlMessage>

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyMemberInStandardFightMessage" Id="4603" Heritage="AbstractPartyMemberInFightMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyMemberInStandardFightMessage" Id="1954" Heritage="AbstractPartyMemberInFightMessage">
 	<Fields>
 		<XmlField Name="fightMap" Type="Types.MapCoordinatesExtended" />
 	</Fields>

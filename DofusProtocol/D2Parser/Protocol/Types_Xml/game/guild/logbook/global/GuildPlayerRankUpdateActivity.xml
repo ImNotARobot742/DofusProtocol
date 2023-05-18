@@ -1,7 +1,9 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildPlayerRankUpdateActivity" Id="9478" Heritage="GuildLogbookEntryBasicInformation">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildPlayerRankUpdateActivity" Id="222" Heritage="GuildLogbookEntryBasicInformation">
 	<Fields>
 		<XmlField Name="guildRankMinimalInfos" Type="Types.GuildRankMinimalInformation" />
-		<XmlField Name="playerId" Type="varuhlong" Condition="playerId &lt; 0 || playerId &gt; 9007199254740992" />
-		<XmlField Name="playerName" Type="utf" />
+		<XmlField Name="sourcePlayerId" Type="varuhlong" Condition="sourcePlayerId &lt; 0 || sourcePlayerId &gt; 9007199254740992" />
+		<XmlField Name="targetPlayerId" Type="varuhlong" Condition="targetPlayerId &lt; 0 || targetPlayerId &gt; 9007199254740992" />
+		<XmlField Name="sourcePlayerName" Type="utf" />
+		<XmlField Name="targetPlayerName" Type="utf" />
 	</Fields>
 </XmlType>

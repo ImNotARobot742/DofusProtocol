@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FriendDeleteResultMessage" Id="7028" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FriendDeleteResultMessage" Id="9837" Heritage="Message">
 	<Fields>
 		<XmlField Name="success" Type="boolean" />
 		<XmlField Name="tag" Type="Types.AccountTagInformation" />

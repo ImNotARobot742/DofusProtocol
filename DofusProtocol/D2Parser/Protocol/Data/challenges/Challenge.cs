@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:51
+// Generated on 05/18/2023 15:11:05
 using System;
 using System.Collections.Generic;
 using AmaknaProxy.API.GameData.D2O;

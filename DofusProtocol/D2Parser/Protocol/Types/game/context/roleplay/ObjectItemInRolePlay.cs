@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:00
+// Generated on 05/18/2023 15:10:59
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class ObjectItemInRolePlay
     {
-        public const short Id = 572;
+        public const short Id = 2508;
         public virtual short TypeId
         {
             get { return Id; }
@@ -32,13 +32,13 @@ namespace AmaknaProxy.API.Protocol.Types
         public virtual void Serialize(IDataWriter writer)
         {
             writer.WriteVarShort((short)cellId);
-            writer.WriteVarShort((short)objectGID);
+            writer.WriteVarInt((int)objectGID);
         }
         
         public virtual void Deserialize(IDataReader reader)
         {
             cellId = reader.ReadVarUShort();
-            objectGID = reader.ReadVarUShort();
+            objectGID = reader.ReadVarUInt();
         }
         
     }

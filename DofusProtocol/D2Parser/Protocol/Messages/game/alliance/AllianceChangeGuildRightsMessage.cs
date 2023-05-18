@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:05
+// Generated on 05/18/2023 15:10:17
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class AllianceChangeGuildRightsMessage : NetworkMessage
     {
-        public const uint Id = 6091;
+        public const uint Id = 9229;
         public override uint MessageId
         {
             get { return Id; }

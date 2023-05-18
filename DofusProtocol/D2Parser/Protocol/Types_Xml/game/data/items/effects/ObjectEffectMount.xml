@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectEffectMount" Id="3193" Heritage="ObjectEffect">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectEffectMount" Id="6026" Heritage="ObjectEffect">
 	<Fields>
 		<XmlField Name="sex" Type="flag(0)" />
 		<XmlField Name="isRideable" Type="flag(1)" />

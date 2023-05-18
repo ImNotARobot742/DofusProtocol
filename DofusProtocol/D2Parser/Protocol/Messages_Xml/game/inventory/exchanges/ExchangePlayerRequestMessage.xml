@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangePlayerRequestMessage" Id="4119" Heritage="ExchangeRequestMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangePlayerRequestMessage" Id="9205" Heritage="ExchangeRequestMessage">
 	<Fields>
 		<XmlField Name="target" Type="varuhlong" Condition="target &lt; 0 || target &gt; 9007199254740992" />
 	</Fields>

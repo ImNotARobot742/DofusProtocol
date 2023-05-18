@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:19
+// Generated on 05/18/2023 15:10:27
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GameRolePlayDelayedObjectUseMessage : GameRolePlayDelayedActionMessage
     {
-        public const uint Id = 1610;
+        public const uint Id = 6065;
         public override uint MessageId
         {
             get { return Id; }
@@ -33,13 +33,13 @@ namespace AmaknaProxy.API.Protocol.Messages
         public override void Serialize(IDataWriter writer)
         {
             base.Serialize(writer);
-            writer.WriteVarShort((short)objectGID);
+            writer.WriteVarInt((int)objectGID);
         }
         
         public override void Deserialize(IDataReader reader)
         {
             base.Deserialize(reader);
-            objectGID = reader.ReadVarUShort();
+            objectGID = reader.ReadVarUInt();
         }
         
     }

@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:27
+// Generated on 05/18/2023 15:10:32
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class PartyRestrictedMessage : AbstractPartyMessage
     {
-        public const uint Id = 4094;
+        public const uint Id = 8424;
         public override uint MessageId
         {
             get { return Id; }

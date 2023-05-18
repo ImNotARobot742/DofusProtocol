@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemQuantityPriceDateEffects" Id="7034" Heritage="ObjectItemGenericQuantity">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemQuantityPriceDateEffects" Id="4391" Heritage="ObjectItemGenericQuantity">
 	<Fields>
 		<XmlField Name="price" Type="varuhlong" Condition="price &lt; 0 || price &gt; 9007199254740992" />
 		<XmlField Name="effects" Type="Types.ObjectEffects" />

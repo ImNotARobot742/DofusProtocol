@@ -1,5 +1,5 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCharacteristicForPreset" Id="1673" Heritage="SimpleCharacterCharacteristicForPreset">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCharacteristicForPreset" Id="8801" Heritage="SimpleCharacterCharacteristicForPreset">
 	<Fields>
-		<XmlField Name="stuff" Type="varshort" />
+		<XmlField Name="stuff" Type="varint" />
 	</Fields>
 </XmlType>

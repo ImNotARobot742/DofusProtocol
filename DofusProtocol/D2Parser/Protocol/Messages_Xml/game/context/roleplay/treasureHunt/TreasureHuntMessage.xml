@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TreasureHuntMessage" Id="7652" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TreasureHuntMessage" Id="7532" Heritage="Message">
 	<Fields>
 		<XmlField Name="questType" Type="sbyte" Condition="questType &lt; 0" />
 		<XmlField Name="startMapId" Type="double" Condition="startMapId &lt; 0 || startMapId &gt; 9007199254740992" />

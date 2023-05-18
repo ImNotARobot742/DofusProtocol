@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceInsiderPrismInformation" Id="3284" Heritage="PrismInformation">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceInsiderPrismInformation" Id="4051" Heritage="PrismInformation">
 	<Fields>
 		<XmlField Name="lastTimeSlotModificationDate" Type="int" Condition="lastTimeSlotModificationDate &lt; 0" />
 		<XmlField Name="lastTimeSlotModificationAuthorGuildId" Type="varuhint" Condition="lastTimeSlotModificationAuthorGuildId &lt; 0" />

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MountInformationInPaddockRequestMessage" Id="4981" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MountInformationInPaddockRequestMessage" Id="6386" Heritage="Message">
 	<Fields>
 		<XmlField Name="mapRideId" Type="varint" />
 	</Fields>

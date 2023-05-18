@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseBuyResultMessage" Id="5020" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseBuyResultMessage" Id="7724" Heritage="Message">
 	<Fields>
 		<XmlField Name="secondHand" Type="flag(0)" />
 		<XmlField Name="bought" Type="flag(1)" />

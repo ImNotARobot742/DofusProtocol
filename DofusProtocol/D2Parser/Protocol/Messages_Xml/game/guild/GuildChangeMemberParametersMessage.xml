@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildChangeMemberParametersMessage" Id="9008" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildChangeMemberParametersMessage" Id="4048" Heritage="Message">
 	<Fields>
 		<XmlField Name="memberId" Type="varuhlong" Condition="memberId &lt; 0 || memberId &gt; 9007199254740992" />
 		<XmlField Name="rankId" Type="varuhint" Condition="rankId &lt; 0" />

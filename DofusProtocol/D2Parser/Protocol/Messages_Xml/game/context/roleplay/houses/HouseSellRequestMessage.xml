@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseSellRequestMessage" Id="3852" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseSellRequestMessage" Id="5233" Heritage="Message">
 	<Fields>
 		<XmlField Name="instanceId" Type="int" Condition="instanceId &lt; 0" />
 		<XmlField Name="amount" Type="varuhlong" Condition="amount &lt; 0 || amount &gt; 9007199254740992" />

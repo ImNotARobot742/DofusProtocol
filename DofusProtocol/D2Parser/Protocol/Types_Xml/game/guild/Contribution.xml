@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Contribution" Id="6353" Heritage="">
+	<Fields>
+		<XmlField Name="contributorId" Type="varuhlong" Condition="contributorId &lt; 0 || contributorId &gt; 9007199254740992" />
+		<XmlField Name="contributorName" Type="utf" />
+		<XmlField Name="amount" Type="varuhlong" Condition="amount &lt; 0 || amount &gt; 9007199254740992" />
+	</Fields>
+</XmlType>

@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MountClientData" Id="7643" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MountClientData" Id="2265" Heritage="">
 	<Fields>
 		<XmlField Name="sex" Type="flag(0)" />
 		<XmlField Name="isRideable" Type="flag(1)" />
@@ -32,7 +32,7 @@
 		<XmlField Name="boostMax" Type="double" Condition="boostMax &lt; -9007199254740992 || boostMax &gt; 9007199254740992" />
 		<XmlField Name="reproductionCount" Type="int" />
 		<XmlField Name="reproductionCountMax" Type="varuhint" Condition="reproductionCountMax &lt; 0" />
-		<XmlField Name="harnessGID" Type="varuhshort" Condition="harnessGID &lt; 0" />
+		<XmlField Name="harnessGID" Type="varuhint" Condition="harnessGID &lt; 0" />
 		<XmlField Name="effectList" Type="Types.ObjectEffectInteger[]" />
 	</Fields>
 </XmlType>

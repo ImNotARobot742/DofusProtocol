@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HumanOptionSpeedMultiplier" Id="1571" Heritage="HumanOption">
+	<Fields>
+		<XmlField Name="speedMultiplier" Type="varuhint" Condition="speedMultiplier &lt; 0" />
+	</Fields>
+</XmlType>

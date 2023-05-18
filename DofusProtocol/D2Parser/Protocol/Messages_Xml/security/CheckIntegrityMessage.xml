@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CheckIntegrityMessage" Id="320" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CheckIntegrityMessage" Id="140" Heritage="Message">
 	<Fields>
 		<XmlField Name="data" Type="sbyte[]" />
 	</Fields>

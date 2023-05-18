@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:11
+// Generated on 05/18/2023 15:10:23
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GameFightNewRoundMessage : NetworkMessage
     {
-        public const uint Id = 9360;
+        public const uint Id = 407;
         public override uint MessageId
         {
             get { return Id; }

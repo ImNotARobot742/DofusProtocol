@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCharacteristicsInformations" Id="4497" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCharacteristicsInformations" Id="7659" Heritage="">
 	<Fields>
 		<XmlField Name="experience" Type="varuhlong" Condition="experience &lt; 0 || experience &gt; 9007199254740992" />
 		<XmlField Name="experienceLevelFloor" Type="varuhlong" Condition="experienceLevelFloor &lt; 0 || experienceLevelFloor &gt; 9007199254740992" />

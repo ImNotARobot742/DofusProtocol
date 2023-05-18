@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="RefreshCharacterStatsMessage" Id="8208" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="RefreshCharacterStatsMessage" Id="3387" Heritage="Message">
 	<Fields>
 		<XmlField Name="fighterId" Type="double" Condition="fighterId &lt; -9007199254740992 || fighterId &gt; 9007199254740992" />
 		<XmlField Name="stats" Type="Types.GameFightCharacteristics" />

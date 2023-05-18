@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:43
+// Generated on 05/18/2023 15:10:48
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class HaapiShopApiKeyMessage : NetworkMessage
     {
-        public const uint Id = 6657;
+        public const uint Id = 138;
         public override uint MessageId
         {
             get { return Id; }

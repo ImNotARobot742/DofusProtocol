@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionFightChangeLookMessage" Id="250" Heritage="AbstractGameActionMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionFightChangeLookMessage" Id="2759" Heritage="AbstractGameActionMessage">
 	<Fields>
 		<XmlField Name="targetId" Type="double" Condition="targetId &lt; -9007199254740992 || targetId &gt; 9007199254740992" />
 		<XmlField Name="entityLook" Type="Types.EntityLook" />

@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:02
+// Generated on 05/18/2023 15:11:01
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,34 +10,40 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class GuildPlayerRankUpdateActivity : GuildLogbookEntryBasicInformation
     {
-        public const short Id = 9478;
+        public const short Id = 222;
         public override short TypeId
         {
             get { return Id; }
         }
         
         public Types.GuildRankMinimalInformation guildRankMinimalInfos;
-        public double playerId;
-        public string playerName;
+        public double sourcePlayerId;
+        public double targetPlayerId;
+        public string sourcePlayerName;
+        public string targetPlayerName;
         
         public GuildPlayerRankUpdateActivity()
         {
         }
         
-        public GuildPlayerRankUpdateActivity(uint id, double date, Types.GuildRankMinimalInformation guildRankMinimalInfos, double playerId, string playerName)
+        public GuildPlayerRankUpdateActivity(uint id, double date, Types.GuildRankMinimalInformation guildRankMinimalInfos, double sourcePlayerId, double targetPlayerId, string sourcePlayerName, string targetPlayerName)
          : base(id, date)
         {
             this.guildRankMinimalInfos = guildRankMinimalInfos;
-            this.playerId = playerId;
-            this.playerName = playerName;
+            this.sourcePlayerId = sourcePlayerId;
+            this.targetPlayerId = targetPlayerId;
+            this.sourcePlayerName = sourcePlayerName;
+            this.targetPlayerName = targetPlayerName;
         }
         
         public override void Serialize(IDataWriter writer)
         {
             base.Serialize(writer);
             guildRankMinimalInfos.Serialize(writer);
-            writer.WriteVarLong(playerId);
-            writer.WriteUTF(playerName);
+            writer.WriteVarLong(sourcePlayerId);
+            writer.WriteVarLong(targetPlayerId);
+            writer.WriteUTF(sourcePlayerName);
+            writer.WriteUTF(targetPlayerName);
         }
         
         public override void Deserialize(IDataReader reader)
@@ -45,8 +51,10 @@ namespace AmaknaProxy.API.Protocol.Types
             base.Deserialize(reader);
             guildRankMinimalInfos = new Types.GuildRankMinimalInformation();
             guildRankMinimalInfos.Deserialize(reader);
-            playerId = reader.ReadVarULong();
-            playerName = reader.ReadUTF();
+            sourcePlayerId = reader.ReadVarULong();
+            targetPlayerId = reader.ReadVarULong();
+            sourcePlayerName = reader.ReadUTF();
+            targetPlayerName = reader.ReadUTF();
         }
         
     }

@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:29
+// Generated on 05/18/2023 15:10:35
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class IgnoredAddFailureMessage : NetworkMessage
     {
-        public const uint Id = 9152;
+        public const uint Id = 7043;
         public override uint MessageId
         {
             get { return Id; }

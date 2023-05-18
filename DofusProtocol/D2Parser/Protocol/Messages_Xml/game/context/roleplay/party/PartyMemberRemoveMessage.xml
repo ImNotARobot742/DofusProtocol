@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyMemberRemoveMessage" Id="7770" Heritage="AbstractPartyEventMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PartyMemberRemoveMessage" Id="2216" Heritage="AbstractPartyEventMessage">
 	<Fields>
 		<XmlField Name="leavingPlayerId" Type="varuhlong" Condition="leavingPlayerId &lt; 0 || leavingPlayerId &gt; 9007199254740992" />
 	</Fields>

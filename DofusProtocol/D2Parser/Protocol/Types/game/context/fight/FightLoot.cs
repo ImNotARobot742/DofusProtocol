@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:58
+// Generated on 05/18/2023 15:10:56
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,20 +10,20 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class FightLoot
     {
-        public const short Id = 4898;
+        public const short Id = 9670;
         public virtual short TypeId
         {
             get { return Id; }
         }
         
-        public uint[] objects;
+        public Types.FightLootObject[] objects;
         public double kamas;
         
         public FightLoot()
         {
         }
         
-        public FightLoot(uint[] objects, double kamas)
+        public FightLoot(Types.FightLootObject[] objects, double kamas)
         {
             this.objects = objects;
             this.kamas = kamas;
@@ -34,7 +34,7 @@ namespace AmaknaProxy.API.Protocol.Types
             writer.WriteShort((short)objects.Length);
             foreach (var entry in objects)
             {
-                 writer.WriteVarInt((int)entry);
+                 entry.Serialize(writer);
             }
             writer.WriteVarLong(kamas);
         }
@@ -42,10 +42,11 @@ namespace AmaknaProxy.API.Protocol.Types
         public virtual void Deserialize(IDataReader reader)
         {
             var limit = (ushort)reader.ReadUShort();
-            objects = new uint[limit];
+            objects = new Types.FightLootObject[limit];
             for (int i = 0; i < limit; i++)
             {
-                 objects[i] = reader.ReadVarUInt();
+                 objects[i] = new Types.FightLootObject();
+                 objects[i].Deserialize(reader);
             }
             kamas = reader.ReadVarULong();
         }

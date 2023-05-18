@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:03
+// Generated on 05/18/2023 15:11:01
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class RecycledItem
     {
-        public const short Id = 2393;
+        public const short Id = 169;
         public virtual short TypeId
         {
             get { return Id; }
@@ -31,13 +31,13 @@ namespace AmaknaProxy.API.Protocol.Types
         
         public virtual void Serialize(IDataWriter writer)
         {
-            writer.WriteVarShort((short)id);
+            writer.WriteVarInt((int)id);
             writer.WriteUInt(qty);
         }
         
         public virtual void Deserialize(IDataReader reader)
         {
-            id = reader.ReadVarUShort();
+            id = reader.ReadVarUInt();
             qty = reader.ReadUInt();
         }
         

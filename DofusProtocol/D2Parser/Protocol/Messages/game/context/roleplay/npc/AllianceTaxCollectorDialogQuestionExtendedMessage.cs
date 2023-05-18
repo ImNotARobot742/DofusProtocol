@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:23
+// Generated on 05/18/2023 15:10:29
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class AllianceTaxCollectorDialogQuestionExtendedMessage : TaxCollectorDialogQuestionExtendedMessage
     {
-        public const uint Id = 5982;
+        public const uint Id = 296;
         public override uint MessageId
         {
             get { return Id; }

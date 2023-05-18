@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceFactSheetInformations" Id="4137" Heritage="AllianceInformations">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceFactSheetInformations" Id="4963" Heritage="AllianceInformations">
 	<Fields>
 		<XmlField Name="creationDate" Type="int" Condition="creationDate &lt; 0" />
 		<XmlField Name="nbGuilds" Type="varuhshort" Condition="nbGuilds &lt; 0" />

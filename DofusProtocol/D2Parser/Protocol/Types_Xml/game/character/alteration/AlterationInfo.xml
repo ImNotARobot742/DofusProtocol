@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AlterationInfo" Id="5142" Heritage="">
+	<Fields>
+		<XmlField Name="alterationId" Type="uint" Condition="alterationId &lt; 0 || alterationId &gt; 4294967295" />
+		<XmlField Name="creationTime" Type="double" Condition="creationTime &lt; -9007199254740992 || creationTime &gt; 9007199254740992" />
+		<XmlField Name="expirationType" Type="sbyte" Condition="expirationType &lt; 0" />
+		<XmlField Name="expirationValue" Type="double" Condition="expirationValue &lt; -9007199254740992 || expirationValue &gt; 9007199254740992" />
+		<XmlField Name="effects" Type="instance of Types.ObjectEffect[]" />
+	</Fields>
+</XmlType>

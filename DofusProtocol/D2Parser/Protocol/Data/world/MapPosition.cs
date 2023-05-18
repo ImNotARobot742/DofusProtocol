@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:55
+// Generated on 05/18/2023 15:11:08
 using System;
 using System.Collections.Generic;
 using AmaknaProxy.API.GameData.D2O;
@@ -17,7 +17,6 @@ namespace AmaknaProxy.API.Protocol.Data
         public Boolean outdoor;
         public int capabilities;
         public int nameId;
-        public Boolean showNameOnFingerpost;
         public List<List<int>> playlists;
         public int subAreaId;
         public int worldMap;

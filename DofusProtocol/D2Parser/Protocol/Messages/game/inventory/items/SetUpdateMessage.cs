@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:39
+// Generated on 05/18/2023 15:10:44
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class SetUpdateMessage : NetworkMessage
     {
-        public const uint Id = 2482;
+        public const uint Id = 9543;
         public override uint MessageId
         {
             get { return Id; }
@@ -39,7 +39,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             writer.WriteShort((short)setObjects.Length);
             foreach (var entry in setObjects)
             {
-                 writer.WriteVarShort((short)entry);
+                 writer.WriteVarInt((int)entry);
             }
             writer.WriteShort((short)setEffects.Length);
             foreach (var entry in setEffects)
@@ -56,7 +56,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             setObjects = new uint[limit];
             for (int i = 0; i < limit; i++)
             {
-                 setObjects[i] = reader.ReadVarUShort();
+                 setObjects[i] = reader.ReadVarUInt();
             }
             limit = (ushort)reader.ReadUShort();
             setEffects = new Types.ObjectEffect[limit];

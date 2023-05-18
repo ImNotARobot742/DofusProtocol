@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:37
+// Generated on 05/18/2023 15:10:42
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class ExchangeStartOkNpcShopMessage : NetworkMessage
     {
-        public const uint Id = 3711;
+        public const uint Id = 3147;
         public override uint MessageId
         {
             get { return Id; }
@@ -36,7 +36,7 @@ namespace AmaknaProxy.API.Protocol.Messages
         public override void Serialize(IDataWriter writer)
         {
             writer.WriteDouble(npcSellerId);
-            writer.WriteVarShort((short)tokenId);
+            writer.WriteVarInt((int)tokenId);
             writer.WriteShort((short)objectsInfos.Length);
             foreach (var entry in objectsInfos)
             {
@@ -47,7 +47,7 @@ namespace AmaknaProxy.API.Protocol.Messages
         public override void Deserialize(IDataReader reader)
         {
             npcSellerId = reader.ReadDouble();
-            tokenId = reader.ReadVarUShort();
+            tokenId = reader.ReadVarUInt();
             var limit = (ushort)reader.ReadUShort();
             objectsInfos = new Types.ObjectItemToSellInNpcShop[limit];
             for (int i = 0; i < limit; i++)

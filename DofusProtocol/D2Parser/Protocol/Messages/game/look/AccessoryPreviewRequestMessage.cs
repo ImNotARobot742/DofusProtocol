@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:39
+// Generated on 05/18/2023 15:10:45
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class AccessoryPreviewRequestMessage : NetworkMessage
     {
-        public const uint Id = 1584;
+        public const uint Id = 9868;
         public override uint MessageId
         {
             get { return Id; }
@@ -34,7 +34,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             writer.WriteShort((short)genericId.Length);
             foreach (var entry in genericId)
             {
-                 writer.WriteVarShort((short)entry);
+                 writer.WriteVarInt((int)entry);
             }
         }
         
@@ -44,7 +44,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             genericId = new uint[limit];
             for (int i = 0; i < limit; i++)
             {
-                 genericId[i] = reader.ReadVarUShort();
+                 genericId[i] = reader.ReadVarUInt();
             }
         }
         

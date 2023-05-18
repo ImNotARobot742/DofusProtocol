@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceInvitedMessage" Id="4726" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceInvitedMessage" Id="4332" Heritage="Message">
 	<Fields>
 		<XmlField Name="recruterId" Type="varuhlong" Condition="recruterId &lt; 0 || recruterId &gt; 9007199254740992" />
 		<XmlField Name="recruterName" Type="utf" />

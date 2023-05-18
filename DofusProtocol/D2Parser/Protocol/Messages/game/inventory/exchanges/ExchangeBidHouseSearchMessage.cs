@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:34
+// Generated on 05/18/2023 15:10:40
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,34 +12,34 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class ExchangeBidHouseSearchMessage : NetworkMessage
     {
-        public const uint Id = 6174;
+        public const uint Id = 4791;
         public override uint MessageId
         {
             get { return Id; }
         }
         
-        public uint genId;
+        public uint objectGID;
         public bool follow;
         
         public ExchangeBidHouseSearchMessage()
         {
         }
         
-        public ExchangeBidHouseSearchMessage(uint genId, bool follow)
+        public ExchangeBidHouseSearchMessage(uint objectGID, bool follow)
         {
-            this.genId = genId;
+            this.objectGID = objectGID;
             this.follow = follow;
         }
         
         public override void Serialize(IDataWriter writer)
         {
-            writer.WriteVarShort((short)genId);
+            writer.WriteVarInt((int)objectGID);
             writer.WriteBoolean(follow);
         }
         
         public override void Deserialize(IDataReader reader)
         {
-            genId = reader.ReadVarUShort();
+            objectGID = reader.ReadVarUInt();
             follow = reader.ReadBoolean();
         }
         

@@ -1,5 +1,5 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayDelayedObjectUseMessage" Id="1610" Heritage="GameRolePlayDelayedActionMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameRolePlayDelayedObjectUseMessage" Id="6065" Heritage="GameRolePlayDelayedActionMessage">
 	<Fields>
-		<XmlField Name="objectGID" Type="varuhshort" Condition="objectGID &lt; 0" />
+		<XmlField Name="objectGID" Type="varuhint" Condition="objectGID &lt; 0" />
 	</Fields>
 </XmlMessage>

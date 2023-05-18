@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:53
+// Generated on 05/18/2023 15:11:07
 using System;
 using System.Collections.Generic;
 using AmaknaProxy.API.GameData.D2O;
@@ -21,6 +21,7 @@ namespace AmaknaProxy.API.Protocol.Data
         public int count;
         public String criteria;
         public Boolean hasCriteria;
+        public Boolean hiddenIfInvalidCriteria;
         public List<MonsterDropCoefficient> specificDropCoefficient;
     }
 }

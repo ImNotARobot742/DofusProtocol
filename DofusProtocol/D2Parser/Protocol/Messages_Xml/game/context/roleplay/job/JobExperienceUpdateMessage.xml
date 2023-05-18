@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JobExperienceUpdateMessage" Id="9901" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="JobExperienceUpdateMessage" Id="9242" Heritage="Message">
 	<Fields>
 		<XmlField Name="experiencesUpdate" Type="Types.JobExperience" />
 	</Fields>

@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:58
+// Generated on 05/18/2023 15:10:56
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class FightResultTaxCollectorListEntry : FightResultFighterListEntry
     {
-        public const short Id = 1668;
+        public const short Id = 6742;
         public override short TypeId
         {
             get { return Id; }

@@ -1,5 +1,5 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidHouseGenericItemAddedMessage" Id="554" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidHouseGenericItemAddedMessage" Id="4331" Heritage="Message">
 	<Fields>
-		<XmlField Name="objGenericId" Type="varuhshort" Condition="objGenericId &lt; 0" />
+		<XmlField Name="objGenericId" Type="varuhint" Condition="objGenericId &lt; 0" />
 	</Fields>
 </XmlMessage>

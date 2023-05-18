@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaddockSellBuyDialogMessage" Id="375" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PaddockSellBuyDialogMessage" Id="3203" Heritage="Message">
 	<Fields>
 		<XmlField Name="bsell" Type="boolean" />
 		<XmlField Name="ownerId" Type="varuhint" Condition="ownerId &lt; 0" />

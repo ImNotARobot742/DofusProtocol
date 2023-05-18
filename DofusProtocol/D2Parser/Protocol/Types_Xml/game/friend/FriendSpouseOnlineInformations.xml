@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FriendSpouseOnlineInformations" Id="3147" Heritage="FriendSpouseInformations">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FriendSpouseOnlineInformations" Id="9569" Heritage="FriendSpouseInformations">
 	<Fields>
 		<XmlField Name="inFight" Type="flag(0)" />
 		<XmlField Name="followSpouse" Type="flag(1)" />
