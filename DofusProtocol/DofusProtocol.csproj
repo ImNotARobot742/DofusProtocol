@@ -1,15 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.67.10.14</Version>
+    <Version>2.67.10.15</Version>
     <Authors>ImNotARobot742</Authors>
     <Description>Dofus Protocol extracted using the AnkamaProtocol-Builder
 </Description>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <AssemblyVersion>2.67.10.14</AssemblyVersion>
-    <FileVersion>2.67.10.14</FileVersion>
+    <AssemblyVersion>2.67.10.15</AssemblyVersion>
+    <FileVersion>2.67.10.15</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
