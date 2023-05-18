@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightFighterLightInformations" Id="3196" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightFighterLightInformations" Id="4256" Heritage="">
 	<Fields>
 		<XmlField Name="sex" Type="flag(0)" />
 		<XmlField Name="alive" Type="flag(1)" />

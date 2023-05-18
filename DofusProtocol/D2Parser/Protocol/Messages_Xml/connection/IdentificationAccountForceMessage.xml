@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationAccountForceMessage" Id="247" Heritage="IdentificationMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IdentificationAccountForceMessage" Id="8300" Heritage="IdentificationMessage">
 	<Fields>
 		<XmlField Name="forcerAccountLogin" Type="utf" />
 	</Fields>

@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PortalInformation" Id="8424" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PortalInformation" Id="5483" Heritage="">
 	<Fields>
 		<XmlField Name="portalId" Type="int" />
 		<XmlField Name="areaId" Type="short" />

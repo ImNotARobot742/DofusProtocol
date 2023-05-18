@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:01
+// Generated on 05/18/2023 15:10:59
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class BidExchangerObjectInfo
     {
-        public const short Id = 7649;
+        public const short Id = 5017;
         public virtual short TypeId
         {
             get { return Id; }
@@ -38,7 +38,7 @@ namespace AmaknaProxy.API.Protocol.Types
         public virtual void Serialize(IDataWriter writer)
         {
             writer.WriteVarInt((int)objectUID);
-            writer.WriteVarShort((short)objectGID);
+            writer.WriteVarInt((int)objectGID);
             writer.WriteInt(objectType);
             writer.WriteShort((short)effects.Length);
             foreach (var entry in effects)
@@ -56,7 +56,7 @@ namespace AmaknaProxy.API.Protocol.Types
         public virtual void Deserialize(IDataReader reader)
         {
             objectUID = reader.ReadVarUInt();
-            objectGID = reader.ReadVarUShort();
+            objectGID = reader.ReadVarUInt();
             objectType = reader.ReadInt();
             var limit = (ushort)reader.ReadUShort();
             effects = new Types.ObjectEffect[limit];

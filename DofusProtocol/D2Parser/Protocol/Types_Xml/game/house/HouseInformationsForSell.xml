@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseInformationsForSell" Id="8931" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseInformationsForSell" Id="2837" Heritage="">
 	<Fields>
 		<XmlField Name="instanceId" Type="int" Condition="instanceId &lt; 0" />
 		<XmlField Name="secondHand" Type="boolean" />

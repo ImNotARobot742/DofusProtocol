@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildLogbookInformationMessage" Id="7468" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildLogbookInformationMessage" Id="9577" Heritage="Message">
 	<Fields>
 		<XmlField Name="globalActivities" Type="instance of Types.GuildLogbookEntryBasicInformation[]" />
 		<XmlField Name="chestActivities" Type="instance of Types.GuildLogbookEntryBasicInformation[]" />

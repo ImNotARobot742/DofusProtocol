@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:02
+// Generated on 05/18/2023 15:11:00
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class GuildMember : CharacterMinimalInformations
     {
-        public const short Id = 9147;
+        public const short Id = 6328;
         public override short TypeId
         {
             get { return Id; }
@@ -20,6 +20,7 @@ namespace AmaknaProxy.API.Protocol.Types
         public bool havenBagShared;
         public sbyte breed;
         public uint rankId;
+        public double enrollmentDate;
         public double givenExperience;
         public sbyte experienceGivenPercent;
         public sbyte connected;
@@ -35,13 +36,14 @@ namespace AmaknaProxy.API.Protocol.Types
         {
         }
         
-        public GuildMember(double id, string name, uint level, bool sex, bool havenBagShared, sbyte breed, uint rankId, double givenExperience, sbyte experienceGivenPercent, sbyte connected, sbyte alignmentSide, ushort hoursSinceLastConnection, uint moodSmileyId, int accountId, int achievementPoints, Types.PlayerStatus status, Types.PlayerNote note)
+        public GuildMember(double id, string name, uint level, bool sex, bool havenBagShared, sbyte breed, uint rankId, double enrollmentDate, double givenExperience, sbyte experienceGivenPercent, sbyte connected, sbyte alignmentSide, ushort hoursSinceLastConnection, uint moodSmileyId, int accountId, int achievementPoints, Types.PlayerStatus status, Types.PlayerNote note)
          : base(id, name, level)
         {
             this.sex = sex;
             this.havenBagShared = havenBagShared;
             this.breed = breed;
             this.rankId = rankId;
+            this.enrollmentDate = enrollmentDate;
             this.givenExperience = givenExperience;
             this.experienceGivenPercent = experienceGivenPercent;
             this.connected = connected;
@@ -63,6 +65,7 @@ namespace AmaknaProxy.API.Protocol.Types
             writer.WriteByte(flag1);
             writer.WriteSbyte(breed);
             writer.WriteVarInt((int)rankId);
+            writer.WriteDouble(enrollmentDate);
             writer.WriteVarLong(givenExperience);
             writer.WriteSbyte(experienceGivenPercent);
             writer.WriteSbyte(connected);
@@ -84,6 +87,7 @@ namespace AmaknaProxy.API.Protocol.Types
             havenBagShared = BooleanByteWrapper.GetFlag(flag1, 1);
             breed = reader.ReadSbyte();
             rankId = reader.ReadVarUInt();
+            enrollmentDate = reader.ReadDouble();
             givenExperience = reader.ReadVarULong();
             experienceGivenPercent = reader.ReadSbyte();
             connected = reader.ReadSbyte();

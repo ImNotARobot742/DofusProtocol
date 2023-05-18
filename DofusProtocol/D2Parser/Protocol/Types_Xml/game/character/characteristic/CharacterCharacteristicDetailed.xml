@@ -1,9 +1,9 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCharacteristicDetailed" Id="8403" Heritage="CharacterCharacteristic">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterCharacteristicDetailed" Id="7776" Heritage="CharacterCharacteristic">
 	<Fields>
-		<XmlField Name="@base" Type="varshort" />
-		<XmlField Name="additional" Type="varshort" />
-		<XmlField Name="objectsAndMountBonus" Type="varshort" />
-		<XmlField Name="alignGiftBonus" Type="varshort" />
-		<XmlField Name="contextModif" Type="varshort" />
+		<XmlField Name="@base" Type="varint" />
+		<XmlField Name="additional" Type="varint" />
+		<XmlField Name="objectsAndMountBonus" Type="varint" />
+		<XmlField Name="alignGiftBonus" Type="varint" />
+		<XmlField Name="contextModif" Type="varint" />
 	</Fields>
 </XmlType>

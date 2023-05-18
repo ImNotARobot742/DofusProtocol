@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:37
+// Generated on 05/18/2023 15:10:42
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,12 +12,13 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class ExchangeTypesItemsExchangerDescriptionForUserMessage : NetworkMessage
     {
-        public const uint Id = 5554;
+        public const uint Id = 1463;
         public override uint MessageId
         {
             get { return Id; }
         }
         
+        public uint objectGID;
         public int objectType;
         public Types.BidExchangerObjectInfo[] itemTypeDescriptions;
         
@@ -25,14 +26,16 @@ namespace AmaknaProxy.API.Protocol.Messages
         {
         }
         
-        public ExchangeTypesItemsExchangerDescriptionForUserMessage(int objectType, Types.BidExchangerObjectInfo[] itemTypeDescriptions)
+        public ExchangeTypesItemsExchangerDescriptionForUserMessage(uint objectGID, int objectType, Types.BidExchangerObjectInfo[] itemTypeDescriptions)
         {
+            this.objectGID = objectGID;
             this.objectType = objectType;
             this.itemTypeDescriptions = itemTypeDescriptions;
         }
         
         public override void Serialize(IDataWriter writer)
         {
+            writer.WriteVarInt((int)objectGID);
             writer.WriteInt(objectType);
             writer.WriteShort((short)itemTypeDescriptions.Length);
             foreach (var entry in itemTypeDescriptions)
@@ -43,6 +46,7 @@ namespace AmaknaProxy.API.Protocol.Messages
         
         public override void Deserialize(IDataReader reader)
         {
+            objectGID = reader.ReadVarUInt();
             objectType = reader.ReadInt();
             var limit = (ushort)reader.ReadUShort();
             itemTypeDescriptions = new Types.BidExchangerObjectInfo[limit];

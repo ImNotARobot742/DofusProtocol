@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HaapiBuyValidationMessage" Id="1897" Heritage="HaapiValidationMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HaapiBuyValidationMessage" Id="1104" Heritage="HaapiValidationMessage">
 	<Fields>
 		<XmlField Name="amount" Type="varuhlong" Condition="amount &lt; 0 || amount &gt; 9007199254740992" />
 		<XmlField Name="email" Type="utf" />

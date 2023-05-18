@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:57
+// Generated on 05/18/2023 15:10:56
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class FightEntityDispositionInformations : EntityDispositionInformations
     {
-        public const short Id = 827;
+        public const short Id = 2021;
         public override short TypeId
         {
             get { return Id; }

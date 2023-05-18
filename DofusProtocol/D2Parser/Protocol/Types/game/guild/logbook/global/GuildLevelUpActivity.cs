@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:02
+// Generated on 05/18/2023 15:11:01
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class GuildLevelUpActivity : GuildLogbookEntryBasicInformation
     {
-        public const short Id = 7901;
+        public const short Id = 5284;
         public override short TypeId
         {
             get { return Id; }

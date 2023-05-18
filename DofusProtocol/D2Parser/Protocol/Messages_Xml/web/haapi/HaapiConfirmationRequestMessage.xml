@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HaapiConfirmationRequestMessage" Id="8332" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HaapiConfirmationRequestMessage" Id="1223" Heritage="Message">
 	<Fields>
 		<XmlField Name="kamas" Type="varuhlong" Condition="kamas &lt; 0 || kamas &gt; 9007199254740992" />
 		<XmlField Name="ogrines" Type="varuhlong" Condition="ogrines &lt; 0 || ogrines &gt; 9007199254740992" />

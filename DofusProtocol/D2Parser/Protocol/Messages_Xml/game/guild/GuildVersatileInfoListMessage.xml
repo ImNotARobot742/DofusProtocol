@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildVersatileInfoListMessage" Id="6214" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildVersatileInfoListMessage" Id="5467" Heritage="Message">
 	<Fields>
 		<XmlField Name="guilds" Type="instance of Types.GuildVersatileInformations[]" />
 	</Fields>

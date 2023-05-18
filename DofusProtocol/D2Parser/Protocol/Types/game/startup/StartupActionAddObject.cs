@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:04
+// Generated on 05/18/2023 15:11:03
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class StartupActionAddObject
     {
-        public const short Id = 6129;
+        public const short Id = 4737;
         public virtual short TypeId
         {
             get { return Id; }
@@ -22,12 +22,13 @@ namespace AmaknaProxy.API.Protocol.Types
         public string descUrl;
         public string pictureUrl;
         public Types.ObjectItemInformationWithQuantity[] items;
+        public uint type;
         
         public StartupActionAddObject()
         {
         }
         
-        public StartupActionAddObject(int uid, string title, string text, string descUrl, string pictureUrl, Types.ObjectItemInformationWithQuantity[] items)
+        public StartupActionAddObject(int uid, string title, string text, string descUrl, string pictureUrl, Types.ObjectItemInformationWithQuantity[] items, uint type)
         {
             this.uid = uid;
             this.title = title;
@@ -35,6 +36,7 @@ namespace AmaknaProxy.API.Protocol.Types
             this.descUrl = descUrl;
             this.pictureUrl = pictureUrl;
             this.items = items;
+            this.type = type;
         }
         
         public virtual void Serialize(IDataWriter writer)
@@ -49,6 +51,7 @@ namespace AmaknaProxy.API.Protocol.Types
             {
                  entry.Serialize(writer);
             }
+            writer.WriteVarInt((int)type);
         }
         
         public virtual void Deserialize(IDataReader reader)
@@ -65,6 +68,7 @@ namespace AmaknaProxy.API.Protocol.Types
                  items[i] = new Types.ObjectItemInformationWithQuantity();
                  items[i].Deserialize(reader);
             }
+            type = reader.ReadVarUInt();
         }
         
     }

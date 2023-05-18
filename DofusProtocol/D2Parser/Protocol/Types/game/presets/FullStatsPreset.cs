@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:03
+// Generated on 05/18/2023 15:11:02
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class FullStatsPreset : Preset
     {
-        public const short Id = 3552;
+        public const short Id = 3344;
         public override short TypeId
         {
             get { return Id; }

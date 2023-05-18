@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeShopStockMovementUpdatedMessage" Id="5416" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeShopStockMovementUpdatedMessage" Id="9798" Heritage="Message">
 	<Fields>
 		<XmlField Name="objectInfo" Type="Types.ObjectItemToSell" />
 	</Fields>

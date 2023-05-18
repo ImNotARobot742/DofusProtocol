@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeOnHumanVendorRequestMessage" Id="3748" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeOnHumanVendorRequestMessage" Id="8093" Heritage="Message">
 	<Fields>
 		<XmlField Name="humanVendorId" Type="varuhlong" Condition="humanVendorId &lt; 0 || humanVendorId &gt; 9007199254740992" />
 		<XmlField Name="humanVendorCell" Type="varuhshort" Condition="humanVendorCell &lt; 0 || humanVendorCell &gt; 559" />

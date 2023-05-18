@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:00
+// Generated on 05/18/2023 15:10:58
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class HumanOptionObjectUse : HumanOption
     {
-        public const short Id = 9403;
+        public const short Id = 2763;
         public override short TypeId
         {
             get { return Id; }
@@ -36,7 +36,7 @@ namespace AmaknaProxy.API.Protocol.Types
             base.Serialize(writer);
             writer.WriteSbyte(delayTypeId);
             writer.WriteDouble(delayEndTime);
-            writer.WriteVarShort((short)objectGID);
+            writer.WriteVarInt((int)objectGID);
         }
         
         public override void Deserialize(IDataReader reader)
@@ -44,7 +44,7 @@ namespace AmaknaProxy.API.Protocol.Types
             base.Deserialize(reader);
             delayTypeId = reader.ReadSbyte();
             delayEndTime = reader.ReadDouble();
-            objectGID = reader.ReadVarUShort();
+            objectGID = reader.ReadVarUInt();
         }
         
     }

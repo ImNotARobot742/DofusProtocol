@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceSummaryRequestMessage" Id="4135" Heritage="PaginationRequestAbstractMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AllianceSummaryRequestMessage" Id="5726" Heritage="PaginationRequestAbstractMessage">
 	<Fields>
 		<XmlField Name="nameFilter" Type="utf" />
 		<XmlField Name="tagFilter" Type="utf" />

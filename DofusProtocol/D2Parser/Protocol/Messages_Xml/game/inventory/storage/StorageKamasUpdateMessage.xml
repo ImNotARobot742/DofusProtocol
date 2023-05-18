@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="StorageKamasUpdateMessage" Id="8712" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="StorageKamasUpdateMessage" Id="7774" Heritage="Message">
 	<Fields>
 		<XmlField Name="kamasTotal" Type="varuhlong" Condition="kamasTotal &lt; 0 || kamasTotal &gt; 9007199254740992" />
 	</Fields>

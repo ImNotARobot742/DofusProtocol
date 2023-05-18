@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:03
+// Generated on 05/18/2023 15:10:15
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GameActionFightCloseCombatMessage : AbstractGameActionFightTargetedAbilityMessage
     {
-        public const uint Id = 8107;
+        public const uint Id = 1309;
         public override uint MessageId
         {
             get { return Id; }
@@ -33,13 +33,13 @@ namespace AmaknaProxy.API.Protocol.Messages
         public override void Serialize(IDataWriter writer)
         {
             base.Serialize(writer);
-            writer.WriteVarShort((short)weaponGenericId);
+            writer.WriteVarInt((int)weaponGenericId);
         }
         
         public override void Deserialize(IDataReader reader)
         {
             base.Deserialize(reader);
-            weaponGenericId = reader.ReadVarUShort();
+            weaponGenericId = reader.ReadVarUInt();
         }
         
     }

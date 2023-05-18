@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:04
+// Generated on 05/18/2023 15:10:16
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GameActionFightLifePointsLostMessage : AbstractGameActionMessage
     {
-        public const uint Id = 3628;
+        public const uint Id = 4627;
         public override uint MessageId
         {
             get { return Id; }

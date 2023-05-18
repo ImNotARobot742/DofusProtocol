@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:57
+// Generated on 05/18/2023 15:10:55
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class CharacterCharacteristicDetailed : CharacterCharacteristic
     {
-        public const short Id = 8403;
+        public const short Id = 7776;
         public override short TypeId
         {
             get { return Id; }
@@ -39,21 +39,21 @@ namespace AmaknaProxy.API.Protocol.Types
         public override void Serialize(IDataWriter writer)
         {
             base.Serialize(writer);
-            writer.WriteVarShort((short)@base);
-            writer.WriteVarShort((short)additional);
-            writer.WriteVarShort((short)objectsAndMountBonus);
-            writer.WriteVarShort((short)alignGiftBonus);
-            writer.WriteVarShort((short)contextModif);
+            writer.WriteVarInt((int)@base);
+            writer.WriteVarInt((int)additional);
+            writer.WriteVarInt((int)objectsAndMountBonus);
+            writer.WriteVarInt((int)alignGiftBonus);
+            writer.WriteVarInt((int)contextModif);
         }
         
         public override void Deserialize(IDataReader reader)
         {
             base.Deserialize(reader);
-            @base = reader.ReadVarShort();
-            additional = reader.ReadVarShort();
-            objectsAndMountBonus = reader.ReadVarShort();
-            alignGiftBonus = reader.ReadVarShort();
-            contextModif = reader.ReadVarShort();
+            @base = reader.ReadVarInt();
+            additional = reader.ReadVarInt();
+            objectsAndMountBonus = reader.ReadVarInt();
+            alignGiftBonus = reader.ReadVarInt();
+            contextModif = reader.ReadVarInt();
         }
         
     }

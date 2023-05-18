@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:01
+// Generated on 05/18/2023 15:11:00
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class ObjectItemToSell : Item
     {
-        public const short Id = 5444;
+        public const short Id = 7537;
         public override short TypeId
         {
             get { return Id; }
@@ -38,7 +38,7 @@ namespace AmaknaProxy.API.Protocol.Types
         public override void Serialize(IDataWriter writer)
         {
             base.Serialize(writer);
-            writer.WriteVarShort((short)objectGID);
+            writer.WriteVarInt((int)objectGID);
             writer.WriteShort((short)effects.Length);
             foreach (var entry in effects)
             {
@@ -53,7 +53,7 @@ namespace AmaknaProxy.API.Protocol.Types
         public override void Deserialize(IDataReader reader)
         {
             base.Deserialize(reader);
-            objectGID = reader.ReadVarUShort();
+            objectGID = reader.ReadVarUInt();
             var limit = (ushort)reader.ReadUShort();
             effects = new Types.ObjectEffect[limit];
             for (int i = 0; i < limit; i++)

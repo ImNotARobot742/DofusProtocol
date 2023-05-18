@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SetCharacterRestrictionsMessage" Id="1254" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SetCharacterRestrictionsMessage" Id="9474" Heritage="Message">
 	<Fields>
 		<XmlField Name="actorId" Type="double" Condition="actorId &lt; -9007199254740992 || actorId &gt; 9007199254740992" />
 		<XmlField Name="restrictions" Type="Types.ActorRestrictionsInformations" />

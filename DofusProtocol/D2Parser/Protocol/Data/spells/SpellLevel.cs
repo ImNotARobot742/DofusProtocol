@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:55
+// Generated on 05/18/2023 15:11:08
 using System;
 using System.Collections.Generic;
 using AmaknaProxy.API.GameData.D2O;
@@ -36,9 +36,7 @@ namespace AmaknaProxy.API.Protocol.Data
         public Boolean hideEffects;
         public Boolean hidden;
         public Boolean playAnimation;
-        public List<int> statesRequired;
-        public List<int> statesAuthorized;
-        public List<int> statesForbidden;
+        public String statesCriterion;
         public List<EffectInstanceDice> effects;
         public List<EffectInstanceDice> criticalEffect;
         public List<String> additionalEffectsZones;

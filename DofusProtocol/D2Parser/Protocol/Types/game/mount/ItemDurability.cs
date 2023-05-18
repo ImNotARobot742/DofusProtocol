@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:03
+// Generated on 05/18/2023 15:11:01
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class ItemDurability
     {
-        public const short Id = 6808;
+        public const short Id = 8435;
         public virtual short TypeId
         {
             get { return Id; }

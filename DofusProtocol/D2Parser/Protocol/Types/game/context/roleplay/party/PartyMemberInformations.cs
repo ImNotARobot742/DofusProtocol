@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:01
+// Generated on 05/18/2023 15:10:59
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class PartyMemberInformations : CharacterBaseInformations
     {
-        public const short Id = 8826;
+        public const short Id = 6068;
         public override short TypeId
         {
             get { return Id; }
@@ -55,9 +55,9 @@ namespace AmaknaProxy.API.Protocol.Types
             base.Serialize(writer);
             writer.WriteVarInt((int)lifePoints);
             writer.WriteVarInt((int)maxLifePoints);
-            writer.WriteVarShort((short)prospecting);
+            writer.WriteVarInt((int)prospecting);
             writer.WriteByte(regenRate);
-            writer.WriteVarShort((short)initiative);
+            writer.WriteVarInt((int)initiative);
             writer.WriteSbyte(alignmentSide);
             writer.WriteShort(worldX);
             writer.WriteShort(worldY);
@@ -78,9 +78,9 @@ namespace AmaknaProxy.API.Protocol.Types
             base.Deserialize(reader);
             lifePoints = reader.ReadVarUInt();
             maxLifePoints = reader.ReadVarUInt();
-            prospecting = reader.ReadVarUShort();
+            prospecting = reader.ReadVarUInt();
             regenRate = reader.ReadByte();
-            initiative = reader.ReadVarUShort();
+            initiative = reader.ReadVarUInt();
             alignmentSide = reader.ReadSbyte();
             worldX = reader.ReadShort();
             worldY = reader.ReadShort();

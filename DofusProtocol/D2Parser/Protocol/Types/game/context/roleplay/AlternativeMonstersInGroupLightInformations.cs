@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:59
+// Generated on 05/18/2023 15:10:57
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class AlternativeMonstersInGroupLightInformations
     {
-        public const short Id = 1054;
+        public const short Id = 5541;
         public virtual short TypeId
         {
             get { return Id; }

@@ -1,3 +1,3 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildRecruitmentInvalidateMessage" Id="6055" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildRecruitmentInvalidateMessage" Id="2716" Heritage="Message">
 	<Fields />
 </XmlMessage>

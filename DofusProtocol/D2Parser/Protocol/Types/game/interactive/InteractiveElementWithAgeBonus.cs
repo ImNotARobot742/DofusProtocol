@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:03
+// Generated on 05/18/2023 15:11:01
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class InteractiveElementWithAgeBonus : InteractiveElement
     {
-        public const short Id = 2318;
+        public const short Id = 5109;
         public override short TypeId
         {
             get { return Id; }

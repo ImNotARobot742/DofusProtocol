@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:00
+// Generated on 05/18/2023 15:10:59
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class NamedPartyTeamWithOutcome
     {
-        public const short Id = 7068;
+        public const short Id = 7279;
         public virtual short TypeId
         {
             get { return Id; }

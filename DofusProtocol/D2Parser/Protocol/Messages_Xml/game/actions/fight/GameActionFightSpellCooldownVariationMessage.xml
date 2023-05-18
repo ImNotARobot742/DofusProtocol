@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionFightSpellCooldownVariationMessage" Id="1571" Heritage="AbstractGameActionMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameActionFightSpellCooldownVariationMessage" Id="8943" Heritage="AbstractGameActionMessage">
 	<Fields>
 		<XmlField Name="targetId" Type="double" Condition="targetId &lt; -9007199254740992 || targetId &gt; 9007199254740992" />
 		<XmlField Name="spellId" Type="varuhshort" Condition="spellId &lt; 0" />

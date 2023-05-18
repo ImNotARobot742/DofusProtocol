@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:57
+// Generated on 05/18/2023 15:10:55
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class CharacterBaseInformations : CharacterMinimalPlusLookInformations
     {
-        public const short Id = 1839;
+        public const short Id = 9836;
         public override short TypeId
         {
             get { return Id; }

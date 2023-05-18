@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:38
+// Generated on 05/18/2023 15:10:43
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class GoldAddedMessage : NetworkMessage
     {
-        public const uint Id = 5700;
+        public const uint Id = 7014;
         public override uint MessageId
         {
             get { return Id; }

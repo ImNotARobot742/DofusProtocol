@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorStateUpdateMessage" Id="2951" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorStateUpdateMessage" Id="382" Heritage="Message">
 	<Fields>
 		<XmlField Name="uniqueId" Type="double" Condition="uniqueId &lt; 0 || uniqueId &gt; 9007199254740992" />
 		<XmlField Name="state" Type="sbyte" />

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterFirstSelectionMessage" Id="3427" Heritage="CharacterSelectionMessage">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CharacterFirstSelectionMessage" Id="159" Heritage="CharacterSelectionMessage">
 	<Fields>
 		<XmlField Name="doTutorial" Type="boolean" />
 	</Fields>

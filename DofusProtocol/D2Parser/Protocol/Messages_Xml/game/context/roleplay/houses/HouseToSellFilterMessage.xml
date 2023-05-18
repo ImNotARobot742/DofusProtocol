@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseToSellFilterMessage" Id="1342" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HouseToSellFilterMessage" Id="4538" Heritage="Message">
 	<Fields>
 		<XmlField Name="areaId" Type="int" />
 		<XmlField Name="atLeastNbRoom" Type="sbyte" Condition="atLeastNbRoom &lt; 0" />

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HaapiValidationRequestMessage" Id="6667" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HaapiValidationRequestMessage" Id="9204" Heritage="Message">
 	<Fields>
 		<XmlField Name="transaction" Type="utf" />
 	</Fields>

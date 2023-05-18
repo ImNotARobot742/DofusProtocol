@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractFightTeamInformations" Id="7711" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractFightTeamInformations" Id="1209" Heritage="">
 	<Fields>
 		<XmlField Name="teamId" Type="sbyte" Condition="teamId &lt; 0" />
 		<XmlField Name="leaderId" Type="double" Condition="leaderId &lt; -9007199254740992 || leaderId &gt; 9007199254740992" />

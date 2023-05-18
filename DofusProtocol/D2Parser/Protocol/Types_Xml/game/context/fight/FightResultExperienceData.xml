@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightResultExperienceData" Id="2223" Heritage="FightResultAdditionalData">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FightResultExperienceData" Id="7996" Heritage="FightResultAdditionalData">
 	<Fields>
 		<XmlField Name="showExperience" Type="flag(0)" />
 		<XmlField Name="showExperienceLevelFloor" Type="flag(1)" />

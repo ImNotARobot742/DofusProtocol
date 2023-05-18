@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ServerSessionConstantLong" Id="489" Heritage="ServerSessionConstant">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ServerSessionConstantLong" Id="5548" Heritage="ServerSessionConstant">
 	<Fields>
 		<XmlField Name="value" Type="double" Condition="value &lt; -9007199254740992 || value &gt; 9007199254740992" />
 	</Fields>

@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidHouseBuyMessage" Id="6750" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidHouseBuyMessage" Id="5113" Heritage="Message">
 	<Fields>
 		<XmlField Name="uid" Type="varuhint" Condition="uid &lt; 0" />
 		<XmlField Name="qty" Type="varuhint" Condition="qty &lt; 0" />

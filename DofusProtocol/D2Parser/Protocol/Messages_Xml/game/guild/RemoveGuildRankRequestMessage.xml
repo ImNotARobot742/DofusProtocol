@@ -1,4 +1,4 @@
-﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="RemoveGuildRankRequestMessage" Id="2691" Heritage="Message">
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="RemoveGuildRankRequestMessage" Id="348" Heritage="Message">
 	<Fields>
 		<XmlField Name="rankId" Type="varuhint" Condition="rankId &lt; 0" />
 		<XmlField Name="newRankId" Type="varuhint" Condition="newRankId &lt; 0" />

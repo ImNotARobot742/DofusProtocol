@@ -1,4 +1,4 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildRankPublicInformation" Id="5645" Heritage="GuildRankMinimalInformation">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildRankPublicInformation" Id="1827" Heritage="GuildRankMinimalInformation">
 	<Fields>
 		<XmlField Name="order" Type="varuhint" Condition="order &lt; 0" />
 		<XmlField Name="gfxId" Type="varuhint" Condition="gfxId &lt; 0" />

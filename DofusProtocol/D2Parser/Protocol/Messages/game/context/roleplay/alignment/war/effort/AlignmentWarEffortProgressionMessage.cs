@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:17
+// Generated on 05/18/2023 15:10:26
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class AlignmentWarEffortProgressionMessage : NetworkMessage
     {
-        public const uint Id = 4206;
+        public const uint Id = 8479;
         public override uint MessageId
         {
             get { return Id; }

@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:01
+// Generated on 05/18/2023 15:10:59
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace AmaknaProxy.API.Protocol.Types
 {
     public class TreasureHuntStepFollowDirectionToHint : TreasureHuntStep
     {
-        public const short Id = 895;
+        public const short Id = 527;
         public override short TypeId
         {
             get { return Id; }

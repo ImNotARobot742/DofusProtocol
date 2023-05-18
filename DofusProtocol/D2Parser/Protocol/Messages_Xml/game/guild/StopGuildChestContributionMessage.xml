@@ -1,0 +1,3 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="StopGuildChestContributionMessage" Id="2563" Heritage="Message">
+	<Fields />
+</XmlMessage>

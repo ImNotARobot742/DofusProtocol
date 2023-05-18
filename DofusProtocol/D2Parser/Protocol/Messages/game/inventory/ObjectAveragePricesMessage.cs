@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:53:34
+// Generated on 05/18/2023 15:10:39
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AmaknaProxy.API.Protocol.Messages
 {
     public class ObjectAveragePricesMessage : NetworkMessage
     {
-        public const uint Id = 2074;
+        public const uint Id = 1712;
         public override uint MessageId
         {
             get { return Id; }
@@ -36,7 +36,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             writer.WriteShort((short)ids.Length);
             foreach (var entry in ids)
             {
-                 writer.WriteVarShort((short)entry);
+                 writer.WriteVarInt((int)entry);
             }
             writer.WriteShort((short)avgPrices.Length);
             foreach (var entry in avgPrices)
@@ -51,7 +51,7 @@ namespace AmaknaProxy.API.Protocol.Messages
             ids = new uint[limit];
             for (int i = 0; i < limit; i++)
             {
-                 ids[i] = reader.ReadVarUShort();
+                 ids[i] = reader.ReadVarUInt();
             }
             limit = (ushort)reader.ReadUShort();
             avgPrices = new double[limit];

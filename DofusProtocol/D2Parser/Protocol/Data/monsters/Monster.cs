@@ -1,6 +1,6 @@
 
 
-// Generated on 02/01/2023 12:54:53
+// Generated on 05/18/2023 15:11:07
 using System;
 using System.Collections.Generic;
 using AmaknaProxy.API.GameData.D2O;
@@ -27,6 +27,7 @@ namespace AmaknaProxy.API.Protocol.Data
         public List<MonsterDrop> temporisDrops;
         public List<uint> subareas;
         public List<uint> spells;
+        public List<String> spellGrades;
         public int favoriteSubareaId;
         public Boolean isMiniBoss;
         public Boolean isQuestMonster;

@@ -1,6 +1,6 @@
-﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemInRolePlay" Id="572" Heritage="">
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemInRolePlay" Id="2508" Heritage="">
 	<Fields>
 		<XmlField Name="cellId" Type="varuhshort" Condition="cellId &lt; 0 || cellId &gt; 559" />
-		<XmlField Name="objectGID" Type="varuhshort" Condition="objectGID &lt; 0" />
+		<XmlField Name="objectGID" Type="varuhint" Condition="objectGID &lt; 0" />
 	</Fields>
 </XmlType>
