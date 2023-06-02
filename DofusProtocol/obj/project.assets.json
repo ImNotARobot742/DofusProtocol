@@ -13,7 +13,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "2.67.10.15",
+    "version": "2.67.11.16",
     "restore": {
       "projectUniqueName": "C:\\Users\\Thur\\Documents\\GitHub\\DofusProtocol\\DofusProtocol\\DofusProtocol.csproj",
       "projectName": "DofusProtocol",
