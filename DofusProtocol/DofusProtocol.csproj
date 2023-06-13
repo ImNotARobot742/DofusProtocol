@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.67.11.16</Version>
+    <Version>2.67.11.17</Version>
     <Authors>ImNotARobot742</Authors>
     <Description>Dofus Protocol extracted using the AnkamaProtocol-Builder
 </Description>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <AssemblyVersion>2.67.11.16</AssemblyVersion>
-    <FileVersion>2.67.11.16</FileVersion>
+    <AssemblyVersion>2.67.11.17</AssemblyVersion>
+    <FileVersion>2.67.11.17</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
